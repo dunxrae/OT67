@@ -11,14 +11,17 @@
         "ottawa/walkleyYard.json",
         "ottawa/lineB-bank.json",
         "ottawa/lineC-carleton.json",
+        "ottawa/lineD-deschenes.json",
         "ottawa/lineG-greenboro.json",
         "ottawa/lineH-hospital.json",
+        "ottawa/lineL-laurentian.json",
+        "ottawa/lineP-plateau.json",
         "ottawa/lineS-somerset.json",
         "ottawa/lineY-sandyhill.json",
         "ottawa/line1-confederation.json",
         "ottawa/line2-trillium.json",
         "ottawa/line3-crosstown.json",
-        "ottawa/line4-airport.json",
+        "ottawa/line4-aviation.json",
         "ottawa/line5-central.json",
         "ottawa/line6-nepean.json",
         "ottawa/line7-hurdman.json",
@@ -26,6 +29,8 @@
         "ottawa/line9-beachburg.json",
         "ottawa/line10-oldchelsea.json",
         "ottawa/stage3barrhaven.json",
+        "ottawa/brtBL-baseline.json",
+        "ottawa/brtWA-walkley.json",
         "ottawa/go-northwestern.json",
         "ottawa/go-almonte.json",
         "ottawa/go-union.json",
@@ -251,8 +256,7 @@
         45.43724924103122
       ],
       "data": [
-        "gatineau/ligneA-aylmer.json",
-        "gatineau/ligneD-deschenes.json"
+        "gatineau/ligneA-aylmer.json"
       ]
     },
     {
