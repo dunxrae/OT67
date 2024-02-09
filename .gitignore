@@ -1,0 +1,30 @@
+# Editor files
+.idea/*
+
+# Development-only files
+converter/
+dev.html
+
+node_modules/
+dist/
+# Include sqljs build dist
+!sqljs/dist
+
+.vscode/
+
+local.env
+
+# Zero-installs is not enabled
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+assembled.geojson
+public/
+*.mbtiles
+tiles/
+build/
