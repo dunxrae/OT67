@@ -5,7 +5,7 @@
         "id": "ottawa/p",
         "type": "rail-line",
         "color": "#39c6f4",
-        "offset": -0.5,
+        "offset": 0,
         "icon": "ottawa/p.svg",
         "name": "Line p: Plateau",
         "description": "Murray - Eardley",
@@ -22,7 +22,7 @@
       {
         "type": "Feature",
         "properties": {
-          "type": "tramstrike"
+          "type": "alignment"
         },
         "geometry": {
           "coordinates": [
@@ -290,7 +290,7 @@
         "type": "Feature",
         "properties": {
           "lines": [
-            "ottawa/d"
+            "ottawa/d", "ottawa/p"
           ],
           "type": "station-label",
           "name": "Mud Lake",
@@ -308,7 +308,7 @@
         "type": "Feature",
         "properties": {
           "lines": [
-            "ottawa/d"
+            "ottawa/d", "ottawa/p"
           ],
           "type": "station-label",
           "name": "McEwen",
@@ -1869,10 +1869,10 @@
         "type": "Feature",
         "properties": {
           "lines": [
-            "ottawa/p"
+            "ottawa/p", "ottawa/d"
           ],
           "type": "station-label",
-          "name": "Rapides Deschenes",
+          "name": "Deschenes",
           "major": false
         },
         "geometry": {
@@ -1923,7 +1923,7 @@
         "type": "Feature",
         "properties": {
           "lines": [
-            "ottawa/p"
+            "ottawa/p", "ottawa/b", "gatineau/A"
           ],
           "type": "station-label",
           "name": "Rideau",
@@ -1932,8 +1932,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -75.69148123797503,
-            45.42630585097184
+            -75.69448992031094,
+    45.42500022602934
           ]
         }
       },

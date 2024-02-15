@@ -274,9 +274,99 @@ export const Lines = React.memo(
               ["exponential", 2],
               ["zoom"],
               14,
-              ["*", ["get", "offset"], 1],
+              ["*", ["get", "offset"], 6],
               20,
-              ["*", ["get", "offset"], 50],
+              ["*", ["get", "offset"], 300],
+            ],
+          }}
+        />
+        <Layer
+          id={`tramstrikedark`}
+          {...LAYER_PROPS}
+          type="line"
+          filter={[
+            "all",
+            ["==", ["get", "type"], "tramstrikedark"],
+            ["!", ["in", ["get", "filterKey"], ["literal", filterList]]],
+          ]}
+          layout={{
+            "line-join": "round",
+            "line-cap": "round",
+            "line-sort-key": ["get", "layer"],
+          }}
+          paint={{
+            "line-color": "#000000",
+            "line-opacity": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              14,
+              1,
+              20,
+              0.3,
+            ],
+            "line-width": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              1,
+              20,
+              50,
+            ],
+            "line-offset": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              ["*", ["get", "offset"], 6],
+              20,
+              ["*", ["get", "offset"], 300],
+            ],
+          }}
+        />
+        <Layer
+          id={`brt`}
+          {...LAYER_PROPS}
+          type="line"
+          filter={[
+            "all",
+            ["==", ["get", "type"], "brt"],
+            ["!", ["in", ["get", "filterKey"], ["literal", filterList]]],
+          ]}
+          layout={{
+            "line-join": "round",
+            "line-cap": "round",
+            "line-sort-key": ["get", "layer"],
+          }}
+          paint={{
+            "line-color": ["get", "color"],
+            "line-opacity": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              14,
+              1,
+              20,
+              0.5,
+            ],
+            "line-width": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              4,
+              20,
+              200,
+            ],
+            "line-offset": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              ["*", ["get", "offset"], 6],
+              20,
+              ["*", ["get", "offset"], 300],
             ],
           }}
         />
@@ -319,11 +409,31 @@ export const Lines = React.memo(
               ["exponential", 2],
               ["zoom"],
               14,
-              ["*", ["get", "offset"], 1],
+              ["*", ["get", "offset"], 6],
               20,
-              ["*", ["get", "offset"], 50],
+              ["*", ["get", "offset"], 300],
             ],
             "line-dasharray": [2, 4]
+          }}
+        />
+                <Layer
+          id={`tracks`}
+          {...LAYER_PROPS}
+          type="line"
+          filter={[
+            "all",
+            ["==", ["get", "type"], "tracks"],
+            ["!", ["in", ["get", "filterKey"], ["literal", filterList]]],
+          ]}
+          layout={{
+            "line-join": "round",
+            "line-cap": "round",
+            "line-sort-key": ["get", "layer"],
+          }}
+          paint={{
+            "line-color": ["get", "color"],
+            "line-width": 3,
+            "line-offset": ["*", ["get", "offset"], 3],
           }}
         />
         <Layer
