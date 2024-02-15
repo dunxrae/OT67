@@ -534,8 +534,8 @@
             },
             "geometry": {
                 "coordinates": [
-                    -75.90767127366793,
-          45.33774843474828
+                    -75.90917870472036,
+          45.337592957968496
                 ],
                 "type": "Point"
             }
@@ -544,16 +544,16 @@
             "type": "Feature",
             "properties": {
                 "lines": [
-                    "ottawa/9"
+                    "ottawa/9", "ottawa/11"
                 ],
                 "type": "station-label",
-                "name": "Bells Corners",
+                "name": "Baseline",
                 "major": false
             },
             "geometry": {
                 "coordinates": [
-                    -75.81813487384142,
-          45.33059054153114
+                    -75.81123981962962,
+          45.33126053838038
                 ],
                 "type": "Point"
             }
@@ -581,7 +581,7 @@
             "type": "Feature",
             "properties": {
                 "lines": [
-                    "ottawa/1",
+                    "ottawa/bh",
                     "ottawa/8",
                     "ottawa/9"
                 ],

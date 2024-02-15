@@ -1,7 +1,7 @@
 {
   "$id": "https://map.railfans.ca/schema.json",
   "title": "Data",
-  "description": "Data used in the RailFans Canada map",
+  "description": "Data used in the OT67 map",
   "type": "object",
   "properties": {
     "type": {
@@ -23,6 +23,8 @@
           { "$ref": "#/definitions/alignment" },
           { "$ref": "#/definitions/tram" },
           { "$ref": "#/definitions/tramstrike" },
+          { "$ref": "#/definitions/tramstrikedark" },
+          { "$ref": "#/definitions/brt" },
           { "$ref": "#/definitions/brtpunch" },
           { "$ref": "#/definitions/tracks" },
           { "$ref": "#/definitions/tracks-future" },
@@ -127,7 +129,6 @@
       },
       "required": ["type", "properties", "geometry"]
     },
-
     "tram": {
       "type": "object",
       "properties": {
@@ -146,7 +147,6 @@
       },
       "required": ["type", "properties", "geometry"]
     },
-
     "tramstrike": {
       "type": "object",
       "properties": {
@@ -165,7 +165,42 @@
       },
       "required": ["type", "properties", "geometry"]
     },
-
+    "tramstrikedark": {
+      "type": "object",
+      "properties": {
+        "type": { "const": "Feature" },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "type": { "const": "tramstrikedark" },
+            "layer": { "type": "number" }
+          },
+          "required": ["type"]
+        },
+        "geometry": {
+          "$ref": "#/definitions/LineString"
+        }
+      },
+      "required": ["type", "properties", "geometry"]
+    },
+    "brt": {
+      "type": "object",
+      "properties": {
+        "type": { "const": "Feature" },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "type": { "const": "brt" },
+            "layer": { "type": "number" }
+          },
+          "required": ["type"]
+        },
+        "geometry": {
+          "$ref": "#/definitions/LineString"
+        }
+      },
+      "required": ["type", "properties", "geometry"]
+    },
     "brtpunch": {
       "type": "object",
       "properties": {
@@ -184,7 +219,6 @@
       },
       "required": ["type", "properties", "geometry"]
     },
-
     "tracks": {
       "type": "object",
       "properties": {
@@ -377,7 +411,6 @@
       },
       "required": ["type", "properties", "geometry"]
     },
-
     "metadata-rail-line": {
       "type": "object",
       "allOf": [{ "$ref": "#/definitions/info" }],

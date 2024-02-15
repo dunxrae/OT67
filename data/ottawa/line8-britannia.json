@@ -22,7 +22,7 @@
         "geometry": {"type": "Point","coordinates": [-75.78465003799668,
         45.33384433492151]}
         },
-        {"type": "Feature","properties": {"lines": ["ottawa/1", "ottawa/8"],"type": "station-label","name": "Knoxdale","major": false},
+        {"type": "Feature","properties": {"lines": ["ottawa/bh", "ottawa/8"],"type": "station-label","name": "Knoxdale","major": false},
         "geometry": {"type": "Point","coordinates": [-75.754594496007,
         45.336763700490735]}
         },
