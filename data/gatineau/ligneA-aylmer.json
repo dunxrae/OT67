@@ -1103,7 +1103,7 @@
         "type": "station-label",
         "name": "Bordeaux",
         "lines": [
-          "gatineau/A", "ottawa/p"
+          "gatineau/A", "ottawa/d"
         ]
       },
       "geometry": {
@@ -1120,7 +1120,7 @@
         "type": "station-label",
         "name": "Belmont",
         "lines": [
-          "gatineau/A", "ottawa/p"
+          "gatineau/A", "ottawa/d"
         ]
       },
       "geometry": {
@@ -1137,7 +1137,7 @@
         "type": "station-label",
         "name": "Fraser",
         "lines": [
-          "gatineau/A", "ottawa/p"
+          "gatineau/A", "ottawa/d"
         ]
       },
       "geometry": {
@@ -1154,7 +1154,7 @@
         "type": "station-label",
         "name": "Grimes",
         "lines": [
-          "gatineau/A", "ottawa/p"
+          "gatineau/A", "ottawa/d"
         ]
       },
       "geometry": {

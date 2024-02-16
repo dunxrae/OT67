@@ -130,7 +130,7 @@
             "type": "Feature",
             "properties": {
                 "lines": [
-                    "ottawa/1",
+                    "ottawa/bh",
                     "ottawa/8"
                 ],
                 "type": "station-label",

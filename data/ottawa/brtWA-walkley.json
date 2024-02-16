@@ -5,7 +5,7 @@
         "id": "ottawa/wa",
         "type": "streetcar-line",
         "color": "#00a99d",
-        "offset": 0,
+        "offset": 0.5,
         "icon": "ottawa/wa.svg",
         "name": "BRT WA: Walkley",
         "description": "St. Laurent - Tunneys Pasture",
@@ -21,7 +21,7 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "tram"
+        "type": "brt"
       },
         "geometry": {
             "coordinates": [
@@ -1011,6 +1011,10 @@
     {"type": "Feature","properties": {"lines": ["ottawa/bl", "ottawa/g", "ottawa/h"],"type": "station-label","name": "Hurdman","major": true},
     "geometry": {"type": "Point","coordinates": [-75.66415317016603,
     45.411917939457425]}
+    },
+    {"type": "Feature","properties": {"lines": ["ottawa/wa", "ottawa/cb"],"type": "station-label","name": "St. Laurent","major": true},
+    "geometry": {"type": "Point","coordinates": [-75.63758963839828,
+    45.420463460962964]}
     }
   ]  
 }

@@ -21548,7 +21548,9 @@
       "type": "Feature",
       "properties": {
         "lines": [
-          "ottawa/2"
+          "ottawa/2",
+          "ottawa/j",
+          "ottawa/ch"
         ],
         "type": "station-label",
         "name": "Limebank",
@@ -21667,7 +21669,7 @@
       "type": "Feature",
       "properties": {
         "lines": [
-          "ottawa/2"
+          "ottawa/2", "ottawa/10"
         ],
         "type": "station-label",
         "name": "Mooney's Bay",

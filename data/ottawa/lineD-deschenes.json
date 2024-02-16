@@ -5,7 +5,7 @@
         "id": "ottawa/d",
         "type": "streetcar-line",
         "color": "#007e88",
-        "offset": 0,
+        "offset": 0.75,
         "icon": "ottawa/d.svg",
         "name": "Line D: Deschenes",
         "description": "Hunt Club - L'Imaginaire",

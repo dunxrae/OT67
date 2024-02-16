@@ -1554,7 +1554,7 @@
         "geometry": {"type": "Point","coordinates": [-75.79578974867488,
         45.37364676258187]}
         },
-        {"type": "Feature","properties": {"lines": ["gatineau/D"],"type": "station-label","name": "Rapides Deschenes","major": false},
+        {"type": "Feature","properties": {"lines": ["gatineau/D"],"type": "station-label","name": "Deschenes","major": false},
         "geometry": {"type": "Point","coordinates": [-75.80478343548745,
         45.38356333583559]}
         },

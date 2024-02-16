@@ -5,7 +5,7 @@
         "id": "ottawa/bl",
         "type": "streetcar-line",
         "color": "#3ccfff",
-        "offset": 0,
+        "offset": 1.5,
         "icon": "ottawa/bl.svg",
         "name": "BRT BL: Baseline",
         "description": "Bayshore - Hurdman",
@@ -21,7 +21,7 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "tram"
+        "type": "brt"
       },
         "geometry": {
             "coordinates": [
@@ -1323,6 +1323,14 @@
     {"type": "Feature","properties": {"lines": ["ottawa/bl", "ottawa/g", "ottawa/h"],"type": "station-label","name": "Hurdman","major": true},
     "geometry": {"type": "Point","coordinates": [-75.66415317016603,
     45.411917939457425]}
+    },
+    {"type": "Feature","properties": {"lines": ["ottawa/bl", "ottawa/wa"],"type": "station-label","name": "Mooney's Bay","major": true},
+    "geometry": {"type": "Point","coordinates": [-75.685291850588,
+    45.37725064658483]}
+    },
+    {"type": "Feature","properties": {"lines": ["ottawa/bl"],"type": "station-label","name": "Baseline","major": false},
+    "geometry": {"type": "Point","coordinates": [-75.80973160611724,
+    45.33312379567437]}
     }
   ]  
 }

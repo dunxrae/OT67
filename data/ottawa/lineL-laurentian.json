@@ -516,7 +516,7 @@
       {
         "type": "Feature",
         "properties": {
-          "type": "tramstrike"
+          "type": "tramstrikedark"
         },
           "geometry": {
               "coordinates": [
