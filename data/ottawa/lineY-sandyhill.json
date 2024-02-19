@@ -9,6 +9,7 @@
         "icon": "ottawa/y.svg",
         "name": "Line Y: Sandy Hill",
         "description": "Murray - Billings Bridge",
+        "filterKey": "tram",
         "sources": [
             "N/A"
         ],

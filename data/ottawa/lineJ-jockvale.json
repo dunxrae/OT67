@@ -9,6 +9,7 @@
         "icon": "ottawa/j.svg",
         "name": "Line J: Jockvale",
         "description": "Citigate - Limebank",
+        "filterKey": "tram",
         "sources": [
             "N/A"
         ],

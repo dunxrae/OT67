@@ -9,6 +9,7 @@
     "icon": "ottawa/6.svg",
     "name": "Line 6: Nepean",
     "description": "Lac-Leamy - Barrhaven Central",
+    "filterKey": "!metro",
     "sources": [
       "N/A"
     ],
@@ -431,6 +432,7 @@
       "properties": {
         "lines": [
           "ottawa/6",
+          "ottawa/12",
           "ottawa/bh"
         ],
         "type": "station-label",
@@ -450,6 +452,7 @@
       "properties": {
         "lines": [
           "ottawa/6",
+          "ottawa/12",
           "ottawa/bh"
         ],
         "type": "station-label",

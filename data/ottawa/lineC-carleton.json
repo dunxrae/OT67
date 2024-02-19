@@ -9,6 +9,7 @@
         "icon": "ottawa/c.svg",
         "name": "Line C: Carleton",
         "description": "Murray - Carleton",
+        "filterKey": "tram",
         "sources": [
             "N/A"
         ],

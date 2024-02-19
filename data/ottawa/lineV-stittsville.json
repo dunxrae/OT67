@@ -9,6 +9,7 @@
         "icon": "ottawa/v.svg",
         "name": "Line V: Stittsville",
         "description": "Terry Fox - Cherry",
+        "filterKey": "tram",
         "sources": [
             "N/A"
         ],

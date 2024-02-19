@@ -9,6 +9,7 @@
     "icon": "ottawa/go.svg",
     "name": "GO: Union-Tremblay",
     "description": "GO Union",
+    "filterKey": "regional",
     "searchTerms": [
       "GO Rideau Tremblay"
     ],

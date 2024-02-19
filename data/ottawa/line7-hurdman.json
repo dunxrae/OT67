@@ -9,6 +9,7 @@
         "icon": "ottawa/7.svg",
         "name": "Line 7: Hurdman",
         "description": "Airport - Elmvale Acres",
+        "filterKey": "!metro",
         "sources": [
             "N/A"
         ],

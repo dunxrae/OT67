@@ -9,6 +9,7 @@
         "icon": "ottawa/wa.svg",
         "name": "BRT WA: Walkley",
         "description": "St. Laurent - Tunneys Pasture",
+        "filterKey": "!brt",
         "sources": [
             "N/A"
         ],

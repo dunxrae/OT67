@@ -9,6 +9,7 @@
         "icon": "ottawa/g.svg",
         "name": "Line G: Greenboro",
         "description": "Hurdman - Karsh",
+        "filterKey": "tram",
         "sources": [
             "N/A"
         ],

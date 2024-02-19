@@ -9,6 +9,7 @@
     "icon": "ottawa/5.svg",
     "name": "Line 5: Central",
     "description": "Potter's Key - Elmvale Acres",
+    "filterKey": "!metro",
     "sources": [
       "N/A"
     ],

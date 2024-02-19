@@ -9,6 +9,7 @@
     "icon": "ottawa/4.svg",
     "name": "Line 4: Aviation",
     "description": "Rideau - Airport",
+    "filterKey": "!train",
     "sources": [
       "City of Ottawa"
     ],

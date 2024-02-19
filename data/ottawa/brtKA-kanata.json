@@ -9,6 +9,7 @@
         "icon": "ottawa/ka.svg",
         "name": "BRT KA: Kanata",
         "description": "Lincoln Fields - Upper Canada",
+        "filterKey": "!brt",
         "sources": [
             "N/A"
         ],

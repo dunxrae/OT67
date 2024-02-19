@@ -9,6 +9,7 @@
         "icon": "ottawa/b.svg",
         "name": "Line B: Bank",
         "description": "Murray - Billings Bridge",
+        "filterKey": "tram",
         "sources": [
             "N/A"
         ],
@@ -927,7 +928,7 @@
     "geometry": {"type": "Point","coordinates": [-75.69948219592285,
     45.4228315549691]}
     },
-    {"type": "Feature","properties": {"lines": ["ottawa/b", "gatineau/A", "ottawa/p"],"type": "station-label","name": "Rideau","major": true},
+    {"type": "Feature","properties": {"lines": ["ottawa/b", "gatineau/A", "ottawa/p"],"type": "station-label","name": "Rideau","major": false},
     "geometry": {"type": "Point","coordinates": [-75.69448992031094,
     45.42500022602934]}
     },

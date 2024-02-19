@@ -9,6 +9,7 @@
         "icon": "ottawa/bl.svg",
         "name": "BRT BL: Baseline",
         "description": "Bayshore - Hurdman",
+        "filterKey": "!brt",
         "sources": [
             "N/A"
         ],

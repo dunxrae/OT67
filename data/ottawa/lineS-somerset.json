@@ -9,6 +9,7 @@
         "icon": "ottawa/s.svg",
         "name": "Line S: Somerset",
         "description": "Murray - Tunney's Pasture",
+        "filterKey": "tram",
         "sources": [
             "N/A"
         ],

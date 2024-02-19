@@ -9,6 +9,7 @@
       "icon": "ottawa/3.svg",
       "name": "Line 3: Crosstown",
       "description": "Trim - Terry Fox",
+      "filterKey": "!lrt",
       "sources": [
       ],
       "searchTerms": [

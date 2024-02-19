@@ -9,6 +9,7 @@
         "icon": "ottawa/bh.svg",
         "name": "BRT BH: Barrhaven",
         "description": "Tunney's Pasture - Barnsdale",
+        "filterKey": "!brt",
         "sources": [
             "N/A"
         ],

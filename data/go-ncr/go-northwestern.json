@@ -9,7 +9,7 @@
         "icon": "ottawa/go.svg",
         "name": "GO: Northwestern",
         "description": "Carp - Cornwall",
-        "filterKey": "go-ottawa",
+        "filterKey": "regional",
         "sources": [
             "N/A"
         ],

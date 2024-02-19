@@ -9,7 +9,7 @@
         "icon": "ottawa/go.svg",
         "name": "GO: Almonte",
         "description": "Carleton Place & Almonte",
-        "filterKey": "go-ottawa",
+        "filterKey": "regional",
         "sources": [
             "N/A"
         ],

@@ -9,6 +9,7 @@
     "icon": "ottawa/via.svg",
     "name": "VIA: Union-Tremblay",
     "description": "VIA Union",
+    "filterKey": "via",
     "searchTerms": [
       "VIA Rideau Tremblay"
     ],

@@ -9,6 +9,7 @@
         "icon": "ottawa/h.svg",
         "name": "Line H: Hospital",
         "description": "Hurdman - Walkley",
+        "filterKey": "tram",
         "sources": [
             "N/A"
         ],
