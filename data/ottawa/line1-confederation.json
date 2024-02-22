@@ -8,8 +8,8 @@
     "offset": 0.5,
     "icon": "ottawa/1.svg",
     "name": "Line 1: Confederation",
-    "description": "Sweetvalley - Algonquin",
-    "filterKey": "!lrt",
+    "description": "Algonquin - Sweetvalley",
+    "filterKey": "!metro",
     "sources": [
       "City of Ottawa"
     ],
@@ -42557,7 +42557,7 @@
           "lines": [
             "ottawa/1",
             "ottawa/3",
-            "gatineau/A",
+            "ottawa/a",
             "gatineau/B"
           ],
           "name": "Parliament",
@@ -42623,7 +42623,7 @@
           "lines": [
             "ottawa/1",
             "ottawa/3",
-            "gatineau/A",
+            "ottawa/a",
             "gatineau/B"
           ],
           "name": "Lyon",

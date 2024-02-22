@@ -135,8 +135,7 @@
       "properties": {
         "lines": [
           "ottawa/6",
-          "gatineau/A",
-          "ottawa/p"
+          "ottawa/a"
         ],
         "type": "station-label",
         "name": "Place du Portage",
@@ -155,8 +154,7 @@
       "properties": {
         "lines": [
           "ottawa/6",
-          "gatineau/A",
-          "ottawa/p"
+          "ottawa/a"
         ],
         "type": "station-label",
         "name": "Asinabka",

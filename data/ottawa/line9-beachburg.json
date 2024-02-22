@@ -9,7 +9,7 @@
         "icon": "ottawa/9.svg",
         "name": "Line 9: Beachburg",
         "description": "Kanata North - Tremblay",
-        "filterKey": "!train",
+        "filterKey": "!regional",
         "sources": [
             "N/A"
         ],

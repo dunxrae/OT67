@@ -9,7 +9,7 @@
         "icon": "ottawa/a.svg",
         "name": "Line A: Aylmer",
         "description": "Eardley - Murray",
-        "filterKey": "tram",
+        "filterKey": "!tram",
         "sources": [
             "N/A"
         ],
@@ -18,7 +18,7 @@
             "Ligne Aylmer"
         ]
     },
-    "bbox": [-75.80979831416316, 45.3656454231301, -75.68589429929199, 45.43724924103122],
+    "bbox": [-75.86661750557016,45.39493716905967,-75.68589429929199,45.432230881608945],
     "features": [
       {
         "type": "Feature",
@@ -1182,8 +1182,8 @@
           "lines": [
             "ottawa/1",
             "ottawa/3",
-            "gatineau/A",
-            "ottawa/p"
+            "ottawa/a",
+            "ottawa/a"
           ],
           "type": "station-connector-label",
           "name": "Lyon"
@@ -1208,8 +1208,8 @@
           "lines": [
             "ottawa/1",
             "ottawa/3",
-            "gatineau/A",
-            "ottawa/p"
+            "ottawa/a",
+            "ottawa/a"
           ],
           "type": "station-connector-label",
           "name": "Parliament"
@@ -1364,8 +1364,8 @@
           "type": "station-label",
           "name": "Saint-Raymond",
           "lines": [
-            "gatineau/A",
-            "ottawa/p"
+            "ottawa/a",
+            "ottawa/a"
           ],
           "major": true
         },
@@ -1383,8 +1383,8 @@
           "type": "station-label",
           "name": "Saint-Dominique",
           "lines": [
-            "gatineau/A",
-            "ottawa/p"
+            "ottawa/a",
+            "ottawa/a"
           ]
         },
         "geometry": {
@@ -1401,8 +1401,8 @@
           "type": "station-label",
           "name": "Bégin",
           "lines": [
-            "gatineau/A",
-            "ottawa/p"
+            "ottawa/a",
+            "ottawa/a"
           ]
         },
         "geometry": {
@@ -1419,8 +1419,8 @@
           "type": "station-label",
           "name": "UQO",
           "lines": [
-            "gatineau/A",
-            "ottawa/p"
+            "ottawa/a",
+            "ottawa/a"
           ]
         },
         "geometry": {
@@ -1437,8 +1437,8 @@
           "type": "station-label",
           "name": "Taché-UQO",
           "lines": [
-            "gatineau/A",
-            "ottawa/p",
+            "ottawa/a",
+            "ottawa/a",
             "ottawa/2"
           ]
         },
@@ -1456,8 +1456,8 @@
           "type": "station-label",
           "name": "Terrasses de la Chaudière",
           "lines": [
-            "gatineau/A",
-            "ottawa/p"
+            "ottawa/a",
+            "ottawa/a"
           ],
           "major": true
         },
@@ -1475,8 +1475,8 @@
           "type": "station-label",
           "name": "Place du Portage",
           "lines": [
-            "gatineau/A",
-            "ottawa/p"
+            "ottawa/a",
+            "ottawa/a"
           ]
         },
         "geometry": {
@@ -1496,8 +1496,8 @@
           ],
           "name": "Lyon",
           "lines": [
-            "gatineau/A",
-            "ottawa/p",
+            "ottawa/a",
+            "ottawa/a",
             "ottawa/1",
             "ottawa/3"
           ]
@@ -1519,8 +1519,8 @@
           ],
           "name": "Parliament",
           "lines": [
-            "gatineau/A",
-            "ottawa/p",
+            "ottawa/a",
+            "ottawa/a",
             "ottawa/1",
             "ottawa/3"
           ]
@@ -1537,7 +1537,7 @@
         "type": "Feature",
         "properties": {
           "lines": [
-            "ottawa/p", "ottawa/b", "gatineau/A"
+            "ottawa/a", "ottawa/b", "ottawa/a"
           ],
           "type": "station-label",
           "name": "Rideau",
@@ -1555,7 +1555,7 @@
         "type": "Feature",
         "properties": {
           "lines": [
-            "ottawa/p",
+            "ottawa/a",
             "ottawa/b",
             "ottawa/c"
           ],
@@ -1575,7 +1575,7 @@
         "type": "Feature",
         "properties": {
           "lines": [
-            "ottawa/p"
+            "ottawa/a"
           ],
           "type": "station-label",
           "name": "Murray",

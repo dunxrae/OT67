@@ -9,7 +9,7 @@
         "icon": "ottawa/p.svg",
         "name": "Line P: Plateau",
         "description": "Murray - du Prado",
-        "filterKey": "tram",
+        "filterKey": "!tram",
         "sources": [
             "N/A"
         ],
@@ -18,7 +18,7 @@
             "Ligne Plateau"
         ]
     },
-    "bbox": [-75.80979831416316, 45.3656454231301, -75.68589429929199, 45.43724924103122],
+    "bbox": [-75.80487530892249,45.37364676258187,-75.68612230248017,45.44375127164051],
     "features": [
       {
         "type": "Feature",
@@ -1443,7 +1443,7 @@
           ],
           "name": "Parliament",
           "lines": [
-            "gatineau/A",
+            "ottawa/a",
             "ottawa/p",
             "ottawa/1",
             "ottawa/3"
@@ -1582,7 +1582,7 @@
         "type": "Feature",
         "properties": {
           "lines": [
-            "ottawa/p", "ottawa/b", "gatineau/A"
+            "ottawa/p", "ottawa/b", "ottawa/a"
           ],
           "type": "station-label",
           "name": "Rideau",

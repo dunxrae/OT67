@@ -9,7 +9,7 @@
         "icon": "ottawa/d.svg",
         "name": "Line D: Deschenes",
         "description": "Hunt Club - L'Imaginaire",
-        "filterKey": "tram",
+        "filterKey": "!tram",
         "sources": [
             "N/A"
         ],
@@ -17,7 +17,7 @@
             "Deschenes Tram"
         ]
     },
-    "bbox": [-75.8563071911682, 45.336289586228986, -75.72499648241134, 45.40015219316239],
+    "bbox": [-75.84326390700406,45.336289586228986,-75.72499648241134,45.41664962629352],
 "features": [
       {
         "type": "Feature",

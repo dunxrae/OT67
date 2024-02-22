@@ -329,8 +329,7 @@
           "lines": [
             "ottawa/1",
             "ottawa/3",
-            "gatineau/A",
-            "ottawa/p"
+            "ottawa/a"
           ],
           "type": "station-connector-label",
           "name": "Lyon"
@@ -355,7 +354,7 @@
           "lines": [
             "ottawa/1",
             "ottawa/3",
-            "gatineau/A",
+            "ottawa/a",
             "ottawa/p"
           ],
           "type": "station-connector-label",
@@ -1474,7 +1473,7 @@
           "type": "station-label",
           "name": "Saint-Raymond",
           "lines": [
-            "gatineau/A",
+            "ottawa/a",
             "ottawa/p"
           ],
           "major": true
@@ -1493,7 +1492,7 @@
           "type": "station-label",
           "name": "Saint-Dominique",
           "lines": [
-            "gatineau/A",
+            "ottawa/a",
             "ottawa/p"
           ]
         },
@@ -1511,7 +1510,7 @@
           "type": "station-label",
           "name": "Bégin",
           "lines": [
-            "gatineau/A",
+            "ottawa/a",
             "ottawa/p"
           ]
         },
@@ -1529,7 +1528,7 @@
           "type": "station-label",
           "name": "UQO",
           "lines": [
-            "gatineau/A",
+            "ottawa/a",
             "ottawa/p"
           ]
         },
@@ -1547,7 +1546,7 @@
           "type": "station-label",
           "name": "Taché-UQO",
           "lines": [
-            "gatineau/A",
+            "ottawa/a",
             "ottawa/p",
             "ottawa/2"
           ]
@@ -1566,7 +1565,7 @@
           "type": "station-label",
           "name": "Terrasses de la Chaudière",
           "lines": [
-            "gatineau/A",
+            "ottawa/a",
             "ottawa/p"
           ],
           "major": true
@@ -1585,7 +1584,7 @@
           "type": "station-label",
           "name": "Place du Portage",
           "lines": [
-            "gatineau/A",
+            "ottawa/a",
             "ottawa/p"
           ]
         },
@@ -1606,7 +1605,7 @@
           ],
           "name": "Lyon",
           "lines": [
-            "gatineau/A",
+            "ottawa/a",
             "ottawa/p",
             "ottawa/1",
             "ottawa/3"
@@ -1629,7 +1628,7 @@
           ],
           "name": "Parliament",
           "lines": [
-            "gatineau/A",
+            "ottawa/a",
             "ottawa/p",
             "ottawa/1",
             "ottawa/3"
@@ -1889,7 +1888,7 @@
         "type": "Feature",
         "properties": {
           "lines": [
-            "ottawa/p", "gatineau/A", "ottawa/d"
+            "ottawa/p", "ottawa/a", "ottawa/d"
           ],
           "type": "station-label",
           "name": "Vanier",
@@ -1925,7 +1924,7 @@
         "type": "Feature",
         "properties": {
           "lines": [
-            "ottawa/p", "ottawa/b", "gatineau/A"
+            "ottawa/p", "ottawa/b", "ottawa/a"
           ],
           "type": "station-label",
           "name": "Rideau",

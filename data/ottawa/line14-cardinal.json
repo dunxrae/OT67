@@ -9,7 +9,7 @@
         "icon": "ottawa/14.svg",
         "name": "Line 14: Cardinal",
         "description": "Rideau - Cardinal",
-        "filterKey": "!train",
+        "filterKey": "!regional",
         "sources": [
             "N/A"
         ],

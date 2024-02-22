@@ -9,7 +9,7 @@
         "icon": "ottawa/n.svg",
         "name": "Line N: Promenades",
         "description": "du Pont - Gladstone",
-        "filterKey": "tram",
+        "filterKey": "!tram",
         "sources": [
             "N/A"
         ],
@@ -18,7 +18,7 @@
             "Ligne Promenades"
         ]
     },
-    "bbox": [-75.80979831416316, 45.3656454231301, -75.68589429929199, 45.43724924103122],
+    "bbox": [-75.74589081438312,45.41225965525089,-75.68706392806861,45.49283793458171],
     "features": [
       {
         "type": "Feature",

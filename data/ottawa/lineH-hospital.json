@@ -9,7 +9,7 @@
         "icon": "ottawa/h.svg",
         "name": "Line H: Hospital",
         "description": "Hurdman - Walkley",
-        "filterKey": "tram",
+        "filterKey": "!tram",
         "sources": [
             "N/A"
         ],
@@ -1347,7 +1347,7 @@
             "properties": {
                 "lines": [
                     "ottawa/h",
-                    "ottawa/g",
+                    "ottawa/o",
                     "ottawa/bl"
                 ],
                 "type": "station-label",
@@ -1367,7 +1367,7 @@
             "properties": {
                 "lines": [
                     "ottawa/h",
-                    "ottawa/g"
+                    "ottawa/o"
                 ],
                 "type": "station-label",
                 "name": "Hospital",

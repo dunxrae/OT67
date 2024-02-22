@@ -9,7 +9,7 @@
         "icon": "ottawa/13.svg",
         "name": "Line 13: Tewin",
         "description": "Rideau - Tremblay",
-        "filterKey": "!train",
+        "filterKey": "!regional",
         "sources": [
             "N/A"
         ],

@@ -9,7 +9,7 @@
         "icon": "ottawa/11.svg",
         "name": "Line 11: Sittsville",
         "description": "Rideau - Village Square",
-        "filterKey": "!train",
+        "filterKey": "!regional",
         "sources": [
             "N/A"
         ],

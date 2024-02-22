@@ -1263,8 +1263,7 @@
           "ottawa/b",
           "ottawa/c",
           "ottawa/s",
-          "ottawa/y",
-          "ottawa/p"
+          "ottawa/y"
         ],
         "type": "station-connector-label",
         "name": "Murray"
@@ -1294,7 +1293,7 @@
           "ottawa/B",
           "ottawa/S",
           "ottawa/Y",
-          "gatineau/A",
+          "ottawa/a",
           "ottawa/p"
         ],
         "type": "station-connector-label",
@@ -1384,7 +1383,6 @@
           "ottawa/1",
           "ottawa/3",
           "ottawa/5",
-          "ottawa/p",
           "ottawa/d"
         ],
         "type": "station-connector-label",

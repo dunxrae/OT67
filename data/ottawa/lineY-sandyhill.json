@@ -9,7 +9,7 @@
         "icon": "ottawa/y.svg",
         "name": "Line Y: Sandy Hill",
         "description": "Murray - Billings Bridge",
-        "filterKey": "tram",
+        "filterKey": "!tram",
         "sources": [
             "N/A"
         ],
@@ -1169,11 +1169,11 @@
     "geometry": {"type": "Point","coordinates": [-75.67681065270163,
     45.38485103315671]}
     },
-    {"type": "Feature","properties": {"lines": ["ottawa/b", "ottawa/p", "ottawa/c"],"type": "station-label","name": "King Edward","major": false},
+    {"type": "Feature","properties": {"lines": ["ottawa/b", "ottawa/c"],"type": "station-label","name": "King Edward","major": false},
     "geometry": {"type": "Point","coordinates": [-75.68612230248017,
     45.42916737956344]}
     },
-    {"type": "Feature","properties": {"lines": ["ottawa/b", "ottawa/p", "ottawa/c"],"type": "station-label","name": "Murray","major": true},
+    {"type": "Feature","properties": {"lines": ["ottawa/b", "ottawa/c"],"type": "station-label","name": "Murray","major": true},
     "geometry": {"type": "Point","coordinates": [-75.68861483599902,
     45.43210996715277]}
     }

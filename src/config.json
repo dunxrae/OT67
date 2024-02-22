@@ -28,13 +28,13 @@
         "ottawa/lineC-carleton.json",
         "ottawa/lineD-deschenes.json",
         "ottawa/lineE-verendrye.json",
-        "ottawa/lineG-greenboro.json",
+        "ottawa/lineG-grives.json",
         "ottawa/lineH-hospital.json",
-        "ottawa/lineI-grives.json",
         "ottawa/lineJ-jockvale.json",
         "ottawa/lineL-laurentian.json",
         "ottawa/lineM-montcalm.json",
         "ottawa/lineN-promenades.json",
+        "ottawa/lineO-greenboro.json",
         "ottawa/lineP-plateau.json",
         "ottawa/lineS-somerset.json",
         "ottawa/lineV-stittsville.json",
@@ -57,6 +57,17 @@
         "go-ncr/go-northwestern.json",
         "go-ncr/go-almonte.json",
         "go-ncr/go-union.json"
+      ]
+    },
+    {
+      "id": "modes",
+      "name": "Transit by Mode Type",
+      "bbox": [-77.28024844996973, 45.01174614467169, -74.72785741593778, 45.89588967450436],
+      "data": [
+        "modes/modes-regional.json",
+        "modes/modes-metro.json",
+        "modes/modes-brt.json",
+        "modes/modes-trams.json"
       ]
     },
     {
@@ -93,7 +104,8 @@
       "id": "ottawa",
       "title": "Ottawa",
       "agencies": [
-        "otransit"
+        "otransit",
+        "modes"
       ],
       "location": [
         -75.691042,

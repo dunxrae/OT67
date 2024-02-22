@@ -9,7 +9,7 @@
         "icon": "ottawa/m.svg",
         "name": "Line M: Montcalm",
         "description": "Murray - Cegep",
-        "filterKey": "tram",
+        "filterKey": "!tram",
         "sources": [
             "N/A"
         ],
@@ -18,7 +18,7 @@
             "Ligne Montcalm"
         ]
     },
-    "bbox": [-75.80979831416316, 45.3656454231301, -75.68589429929199, 45.43724924103122],
+    "bbox": [-75.76963988572066,45.419887985370885,-75.68612230248017,45.461522876811415],
     "features": [
       {
         "type": "Feature",
@@ -1104,7 +1104,6 @@
         "type": "Feature",
         "properties": {
           "lines": [
-            "ottawa/p",
             "ottawa/b",
             "ottawa/c",
             "ottawa/m"

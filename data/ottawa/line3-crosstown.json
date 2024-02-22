@@ -9,7 +9,7 @@
       "icon": "ottawa/3.svg",
       "name": "Line 3: Crosstown",
       "description": "Trim - Terry Fox",
-      "filterKey": "!lrt",
+      "filterKey": "!metro",
       "sources": [
       ],
       "searchTerms": [
@@ -29551,7 +29551,7 @@
                 "lines": [
                     "ottawa/1",
                     "ottawa/3",
-                    "gatineau/A",
+                    "ottawa/a",
                     "gatineau/B"
                 ],
                 "name": "Parliament",
@@ -29572,7 +29572,7 @@
                 "lines": [
                     "ottawa/1",
                     "ottawa/3",
-                    "gatineau/A",
+                    "ottawa/a",
                     "gatineau/B"
                 ],
                 "name": "Lyon",
@@ -31335,8 +31335,7 @@
                 "lines": [
                     "ottawa/1",
                     "ottawa/3",
-                    "ottawa/d",
-                    "ottawa/p"
+                    "ottawa/d"
                 ],
                 "name": "Lincoln Fields",
                 "type": "station-label",
