@@ -8,7 +8,8 @@
     "offset": 0.5,
     "icon": "ottawa/1.svg",
     "name": "Line 1: Confederation",
-    "description": "Sweetvalley - Algonquin",
+    "description": "Algonquin - Sweetvalley",
+    "filterKey": "!metro",
     "sources": [
       "City of Ottawa"
     ],
@@ -26,7 +27,7 @@
     "geometry": {"type": "Point","coordinates": [-75.49197243301151,
     45.468173351164836]}
     },
-    {"type": "Feature","properties": {"lines": ["ottawa/1"],"type": "station-label","name": "Avalon","major": false},
+    {"type": "Feature","properties": {"lines": ["ottawa/1","ottawa/14"],"type": "station-label","name": "Avalon","major": true},
     "geometry": {"type": "Point","coordinates": [-75.4857320946819,
     45.45722291838911]}
     },
@@ -42556,7 +42557,7 @@
           "lines": [
             "ottawa/1",
             "ottawa/3",
-            "gatineau/A",
+            "ottawa/a",
             "gatineau/B"
           ],
           "name": "Parliament",
@@ -42622,7 +42623,7 @@
           "lines": [
             "ottawa/1",
             "ottawa/3",
-            "gatineau/A",
+            "ottawa/a",
             "gatineau/B"
           ],
           "name": "Lyon",

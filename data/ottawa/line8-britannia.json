@@ -9,6 +9,7 @@
         "icon": "ottawa/8.svg",
         "name": "Line 8: Britannia",
         "description": "Bayshore - South Keys",
+        "filterKey": "!metro",
         "sources": [
             "N/A"
         ],

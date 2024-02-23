@@ -940,7 +940,7 @@
         {
             "type": "Feature",
             "properties": {
-              "lines": ["ottawa/1", "ottawa/3", "ottawa/5", "ottawa/B", "ottawa/C", "ottawa/S", "ottawa/Y", "ottawa/p"],
+              "lines": ["ottawa/1", "ottawa/3", "ottawa/5", "ottawa/B", "ottawa/C", "ottawa/S", "ottawa/Y"],
               "type": "station-connector-label",
               "name": "King Edward"
             },
@@ -955,7 +955,7 @@
           {
               "type": "Feature",
               "properties": {
-                "lines": ["ottawa/1", "ottawa/3", "ottawa/4", "ottawa/5", "ottawa/B", "ottawa/S", "ottawa/Y", "gatineau/A", "ottawa/p"],
+                "lines": ["ottawa/1", "ottawa/3", "ottawa/4", "ottawa/5", "ottawa/B", "ottawa/S", "ottawa/Y", "ottawa/a", "ottawa/p"],
                 "type": "station-connector-label",
                 "name": "Rideau"
               },
