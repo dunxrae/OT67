@@ -1,14 +1,15 @@
 {
     "type": "FeatureCollection",
-    "name": "Line G: Greenboro",
+    "name": "Line O: Greenboro",
     "metadata": {
-        "id": "ottawa/g",
+        "id": "ottawa/o",
         "type": "rail-line",
         "color": "#00d05d",
         "offset": 0,
-        "icon": "ottawa/g.svg",
-        "name": "Line G: Greenboro",
+        "icon": "ottawa/o.svg",
+        "name": "Line O: Greenboro",
         "description": "Hurdman - Karsh",
+        "filterKey": "!tram",
         "sources": [
             "N/A"
         ],
@@ -1268,11 +1269,11 @@
     "type": "LineString"
   }
 },
-{"type": "Feature","properties": {"lines": ["ottawa/g", "ottawa/h", "ottawa/bl"],"type": "station-label","name": "Hurdman","major": true},
+{"type": "Feature","properties": {"lines": ["ottawa/o", "ottawa/h", "ottawa/bl"],"type": "station-label","name": "Hurdman","major": true},
 "geometry": {"type": "Point","coordinates": [-75.66415317016603,
 45.411917939457425]}
 },
-{"type": "Feature","properties": {"lines": ["ottawa/g", "ottawa/h"],"type": "station-label","name": "Hospital","major": true},
+{"type": "Feature","properties": {"lines": ["ottawa/o", "ottawa/h"],"type": "station-label","name": "Hospital","major": true},
 "geometry": {"type": "Point","coordinates": [-75.64496004922395,
 45.401922044739194]}
 }

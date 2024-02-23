@@ -222,7 +222,7 @@ export const Lines = React.memo(
               14,
               6,
               20,
-              300,
+              150,
             ],
             "line-offset": [
               "interpolate",
@@ -231,7 +231,7 @@ export const Lines = React.memo(
               14,
               ["*", ["get", "offset"], 6],
               20,
-              ["*", ["get", "offset"], 300],
+              ["*", ["get", "offset"], 150],
             ],
           }}
         />
@@ -267,7 +267,7 @@ export const Lines = React.memo(
               14,
               1,
               20,
-              50,
+              25,
             ],
             "line-offset": [
               "interpolate",
@@ -276,7 +276,7 @@ export const Lines = React.memo(
               14,
               ["*", ["get", "offset"], 6],
               20,
-              ["*", ["get", "offset"], 300],
+              ["*", ["get", "offset"], 150],
             ],
           }}
         />
@@ -312,7 +312,7 @@ export const Lines = React.memo(
               14,
               1,
               20,
-              50,
+              25,
             ],
             "line-offset": [
               "interpolate",
@@ -321,7 +321,7 @@ export const Lines = React.memo(
               14,
               ["*", ["get", "offset"], 6],
               20,
-              ["*", ["get", "offset"], 300],
+              ["*", ["get", "offset"], 150],
             ],
           }}
         />
@@ -357,7 +357,7 @@ export const Lines = React.memo(
               14,
               4,
               20,
-              200,
+              100,
             ],
             "line-offset": [
               "interpolate",
@@ -366,7 +366,7 @@ export const Lines = React.memo(
               14,
               ["*", ["get", "offset"], 6],
               20,
-              ["*", ["get", "offset"], 300],
+              ["*", ["get", "offset"], 150],
             ],
           }}
         />
@@ -402,7 +402,7 @@ export const Lines = React.memo(
               14,
               3,
               20,
-              150,
+              75,
             ],
             "line-offset": [
               "interpolate",
@@ -411,7 +411,7 @@ export const Lines = React.memo(
               14,
               ["*", ["get", "offset"], 6],
               20,
-              ["*", ["get", "offset"], 300],
+              ["*", ["get", "offset"], 150],
             ],
             "line-dasharray": [2, 4]
           }}

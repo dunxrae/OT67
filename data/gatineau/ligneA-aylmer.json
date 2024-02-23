@@ -8,6 +8,7 @@
     "icon": "ottawa/a.svg",
     "name": "Ligne A: Aylmer",
     "description": "Proposed corridor for the Tramway",
+    "filterKey": "tram",
     "sources": [
       "STO"
     ],

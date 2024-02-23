@@ -9,6 +9,7 @@
         "icon": "ottawa/l.svg",
         "name": "Line L: Laurentian",
         "description": "Sherbourne - Hunt Club",
+        "filterKey": "!tram",
         "sources": [
             "N/A"
         ],
