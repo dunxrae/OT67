@@ -1183,7 +1183,7 @@
             "ottawa/1",
             "ottawa/3",
             "ottawa/a",
-            "ottawa/a"
+            "ottawa/n"
           ],
           "type": "station-connector-label",
           "name": "Lyon"
@@ -1497,9 +1497,7 @@
           "name": "Lyon",
           "lines": [
             "ottawa/a",
-            "ottawa/a",
-            "ottawa/1",
-            "ottawa/3"
+            "ottawa/n"
           ]
         },
         "geometry": {

@@ -1,20 +1,20 @@
 {
     "type": "FeatureCollection",
-    "name": "BRT CB: Cumberland",
+    "name": "BRT AV: Avalon",
     "metadata": {
-        "id": "ottawa/cb",
+        "id": "ottawa/av",
         "type": "streetcar-line",
         "color": "#ff99e9",
-        "offset": -0.5,
-        "icon": "ottawa/cb.svg",
-        "name": "BRT CB: Cumberland",
-        "description": "St. Laurent - Millenium",
+        "offset": -0.6,
+        "icon": "ottawa/av.svg",
+        "name": "BRT AV: Avalon",
+        "description": "Blair - Millenium",
         "filterKey": "!brt",
         "sources": [
             "N/A"
         ],
         "searchTerms": [
-            "Cumberland BRT"
+            "Avalon BRT"
         ]
     },
     "bbox": [-75.63758963839828,45.41943217834665,-75.45093480753778,45.46396291518357],
@@ -841,19 +841,19 @@
       "type": "LineString"
     }
   },
-    {"type": "Feature","properties": {"lines": ["ottawa/wa", "ottawa/cb"],"type": "station-label","name": "St. Laurent","major": true},
+    {"type": "Feature","properties": {"lines": ["ottawa/wa", "ottawa/av"],"type": "station-label","name": "St. Laurent","major": true},
     "geometry": {"type": "Point","coordinates": [-75.63758963839828,
     45.420463460962964]}
     },
-    {"type": "Feature","properties": {"lines": ["ottawa/cb"],"type": "station-label","name": "Avalon","major": false},
+    {"type": "Feature","properties": {"lines": ["ottawa/av", "ottawa/pi", "ottawa/jd"],"type": "station-label","name": "Avalon","major": false},
     "geometry": {"type": "Point","coordinates": [-75.48530152974227,
     45.45736871466687]}
     },
-    {"type": "Feature","properties": {"lines": ["ottawa/cb"],"type": "station-label","name": "Esprit","major": false},
+    {"type": "Feature","properties": {"lines": ["ottawa/av", "ottawa/jd"],"type": "station-label","name": "Esprit","major": false},
     "geometry": {"type": "Point","coordinates": [-75.47428983482223,
     45.459052010216595]}
     },
-    {"type": "Feature","properties": {"lines": ["ottawa/cb"],"type": "station-label","name": "Millenium","major": true},
+    {"type": "Feature","properties": {"lines": ["ottawa/av", "ottawa/jd"],"type": "station-label","name": "Millenium","major": true},
     "geometry": {"type": "Point","coordinates": [-75.45174760127638,
     45.46382036279539]}
     }

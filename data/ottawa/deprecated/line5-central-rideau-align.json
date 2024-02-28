@@ -1067,7 +1067,7 @@
         "geometry": {"type": "Point","coordinates": [-75.69950210198176,
         45.40116007302029]}
         },
-        {"type": "Feature","properties": {"lines": ["ottawa/5", "ottawa/7", "ottawa/b"],"type": "station-label","name": "Glebe","major": true},
+        {"type": "Feature","properties": {"lines": ["ottawa/5", "ottawa/7"],"type": "station-label","name": "Glebe","major": true},
         "geometry": {"type": "Point","coordinates": [-75.68986256315861,
         45.40516322134897]}
         },
