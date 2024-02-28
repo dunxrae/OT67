@@ -8,6 +8,7 @@
     "target": "ES2019",
     "jsx": "react",
     "resolveJsonModule": true,
+    "noUnusedLocals": false,
   },
   "include": ["src"]
 }

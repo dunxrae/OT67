@@ -37,6 +37,7 @@ type AppState = {
   settingsDrawerOpen: boolean;
   legendDrawerOpen: boolean;
   shareSheetOpen: boolean;
+  lineKeyDrawerOpen: boolean;
   searchOpen: boolean;
 
   show3DBuildings: boolean;
@@ -59,6 +60,7 @@ type AppStateActions = {
   setSettingsDrawerOpen: (open: boolean) => void;
   setLegendDrawerOpen: (open: boolean) => void;
   setShareSheetOpen: (open: boolean) => void;
+  setLineKeyDrawerOpen: (open: boolean) => void;
   setSearchOpen: (open: boolean) => void;
 
   setShow3DBuildings: (show: boolean) => void;
@@ -121,7 +123,7 @@ const readSearchParamsSettings = (): Partial<AppState> => {
 };
 
 const writeSettings = (state: AppState) => {
-  const { settingsDrawerOpen, legendDrawerOpen, shareSheetOpen, ...rest } =
+  const { settingsDrawerOpen, legendDrawerOpen, shareSheetOpen, lineKeyDrawerOpen, ...rest } =
     state;
 
   localStorage["settings"] = JSON.stringify({ ...rest, version: "3.4.2" });
@@ -140,6 +142,7 @@ const useProvideAppContext = (): UseAppState => {
   const [settingsDrawerOpen, setSettingsDrawerOpen] = useState(false);
   const [legendDrawerOpen, setLegendDrawerOpen] = useState(false);
   const [shareSheetOpen, setShareSheetOpen] = useState(false);
+  const [lineKeyDrawerOpen, setLineKeyDrawerOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
 
   const [show3DBuildings, setShow3DBuildings] = useState(
@@ -197,6 +200,9 @@ const useProvideAppContext = (): UseAppState => {
 
     shareSheetOpen,
     setShareSheetOpen,
+
+    lineKeyDrawerOpen,
+    setLineKeyDrawerOpen,
 
     searchOpen,
     setSearchOpen,

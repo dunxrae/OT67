@@ -10,12 +10,14 @@ import {
 import {
   Layers,
   Share,
+  LineStyle,
   GitHub,
   Settings,
   NearMe,
   Feedback,
 } from "@mui/icons-material";
 import { ShareSheet } from "./ShareSheet";
+import { LineKeyDrawer } from "./LineKeyDrawer";
 import styled from "@emotion/styled";
 import { config, Region } from "../../config";
 import { SimpleBBox, useMapTarget } from "../../hooks/useMapTarget";
@@ -87,6 +89,7 @@ export const Controls = () => {
     setLegendDrawerOpen,
     setSettingsDrawerOpen,
     setShareSheetOpen,
+    setLineKeyDrawerOpen,
     searchOpen,
   } = useAppState();
   const [width] = useWindow();
@@ -142,6 +145,14 @@ export const Controls = () => {
               <Layers />
             </IconButton>
           </Tooltip>
+          <Divider />
+        <ControlPaper>  
+          <Tooltip title="Key to Lines">
+            <IconButton onClick={() => setLineKeyDrawerOpen(true)} size="large">
+              <LineStyle />
+            </IconButton>
+          </Tooltip>
+        </ControlPaper>  
         </ControlPaper>
         <ControlPaper>
           <Tooltip title="Map Settings">
@@ -162,7 +173,7 @@ export const Controls = () => {
           <Divider />
           <Tooltip title="Contribute on GitHub">
             <IconButton
-              href="https://github.com/RailFansCanada/RailFansMap"
+              href="https://github.com/dunxrae/ot67"
               size="large"
             >
               <GitHub />
@@ -170,6 +181,7 @@ export const Controls = () => {
           </Tooltip>
         </ControlPaper>
       </ControlsContainer>
+      <ShareSheet />
       <ShareSheet />
       <QuickNavigationMenu
         anchorEl={anchorEl}
