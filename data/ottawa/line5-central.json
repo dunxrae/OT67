@@ -1783,8 +1783,7 @@
       "properties": {
         "lines": [
           "ottawa/5",
-          "ottawa/7",
-          "ottawa/b"
+          "ottawa/7"
         ],
         "type": "station-label",
         "name": "Glebe",
@@ -1821,7 +1820,9 @@
       "properties": {
         "lines": [
           "ottawa/5",
-          "ottawa/c"
+          "ottawa/c",
+          "ottawa/m",
+          "ottawa/s"
         ],
         "type": "station-label",
         "name": "Elgin",
