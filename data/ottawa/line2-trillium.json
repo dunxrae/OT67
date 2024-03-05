@@ -1496,7 +1496,7 @@
     "geometry": {"type": "Point","coordinates": [-75.72810629216808,
     45.44023772719615]}
     },
-    {"type": "Feature","properties": {"lines": ["ottawa/2", "ottawa/6", "ottawa/10"],"type": "station-label","name": "Lac-Leamy","major": false},
+    {"type": "Feature","properties": {"lines": ["ottawa/2", "ottawa/10"],"type": "station-label","name": "Lac-Leamy","major": false},
     "geometry": {"type": "Point","coordinates": [-75.72757899556069,
     45.44588695162673]}
     },

@@ -1077,7 +1077,7 @@
     "geometry": {"type": "Point","coordinates": [-75.68861483599902,
     45.43210996715277]}
     },
-    {"type": "Feature","properties": {"lines": ["ottawa/s", "ottawa/r"],"type": "station-label","name": "Beechwood","major": true},
+    {"type": "Feature","properties": {"lines": ["ottawa/s", "ottawa/y"],"type": "station-label","name": "Beechwood","major": true},
     "geometry": {"type": "Point","coordinates": [-75.67755631503951,
     45.438609554634695]}
     },

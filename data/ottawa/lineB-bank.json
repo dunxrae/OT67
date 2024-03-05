@@ -916,7 +916,7 @@
     "geometry": {"type": "Point","coordinates": [-75.69367505496416,
     45.41223639176218]}
     },
-    {"type": "Feature","properties": {"lines": ["ottawa/b", "ottawa/p", "ottawa/n", "ottawa/s"],"type": "station-label","name": "Somerset","major": false},
+    {"type": "Feature","properties": {"lines": ["ottawa/b", "ottawa/p", "ottawa/n", "ottawa/s"],"type": "station-label","name": "Centretown","major": false},
     "geometry": {"type": "Point","coordinates": [-75.69636834044141,
     45.41539005385005]}
     },
