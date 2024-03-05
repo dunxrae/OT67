@@ -1819,6 +1819,24 @@
       "type": "Feature",
       "properties": {
         "lines": [
+          "ottawa/5"
+        ],
+        "type": "station-label",
+        "name": "Somerset",
+        "major": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.69025147811406,
+          45.41789220685823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lines": [
           "ottawa/5",
           "ottawa/c",
           "ottawa/m",
@@ -1921,8 +1939,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.6603194841837,
-          45.431351864432514
+          -75.66146046625313,
+          45.43127348380173
         ]
       }
     },
@@ -1933,14 +1951,32 @@
           "ottawa/5"
         ],
         "type": "station-label",
-        "name": "Dieppe",
+        "name": "McArthur",
         "major": false
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.64980497901202,
-          45.43209278594125
+          -75.65423192035978,
+          45.431781287930306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lines": [
+          "ottawa/5"
+        ],
+        "type": "station-label",
+        "name": "May",
+        "major": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.64551695743654,
+          45.43239520744967
         ]
       }
     },
@@ -1986,7 +2022,10 @@
       "properties": {
         "lines": [
           "ottawa/5",
-          "ottawa/9"
+          "ottawa/9",
+          "ottawa/13",
+          "ottawa/14",
+          "ottawa/wa"
         ],
         "type": "station-label",
         "name": "Headquarters",
