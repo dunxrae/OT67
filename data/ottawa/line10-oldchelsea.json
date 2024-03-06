@@ -1584,7 +1584,7 @@
     "geometry": {"type": "Point","coordinates": [-75.73753102773513,
     45.460842039511846]}
     },
-    {"type": "Feature","properties": {"lines": ["ottawa/2", "ottawa/10"],"type": "station-label","name": "Lac-Leamy","major": false},
+    {"type": "Feature","properties": {"lines": ["ottawa/2", "ottawa/10"],"type": "station-label","name": "Casino","major": false},
     "geometry": {"type": "Point","coordinates": [-75.72757899556069,
     45.44588695162673]}
     },
