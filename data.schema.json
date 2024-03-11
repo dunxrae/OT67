@@ -12,29 +12,81 @@
     },
     "metadata": {
       "oneOf": [
-        { "$ref": "#/definitions/metadata-rail-line" },
-        { "$ref": "#/definitions/metadata-rail-yard" }
+        {
+          "$ref": "#/definitions/metadata-rail-line"
+        },
+        {
+          "$ref": "#/definitions/metadata-rail-yard"
+        }
       ]
     },
     "features": {
       "type": "array",
       "items": {
         "oneOf": [
-          { "$ref": "#/definitions/alignment" },
-          { "$ref": "#/definitions/tram" },
-          { "$ref": "#/definitions/tramstrike" },
-          { "$ref": "#/definitions/tramstrikedark" },
-          { "$ref": "#/definitions/brt" },
-          { "$ref": "#/definitions/brtpunch" },
-          { "$ref": "#/definitions/tracks" },
-          { "$ref": "#/definitions/tracks-future" },
-          { "$ref": "#/definitions/overpass" },
-          { "$ref": "#/definitions/station-platforms" },
-          { "$ref": "#/definitions/station-platforms-future" },
-          { "$ref": "#/definitions/station-label" },
-          { "$ref": "#/definitions/station-connector-label" },
-          { "$ref": "#/definitions/yard-label" },
-          { "$ref": "#/definitions/tunnel" }
+          {
+            "$ref": "#/definitions/alignment"
+          },
+          {
+            "$ref": "#/definitions/tram"
+          },
+          {
+            "$ref": "#/definitions/tramstrike"
+          },
+          {
+            "$ref": "#/definitions/tramstrikedark"
+          },
+          {
+            "$ref": "#/definitions/brt"
+          },
+          {
+            "$ref": "#/definitions/brtpunch"
+          },
+          {
+            "$ref": "#/definitions/regionalrail"
+          },
+          {
+            "$ref": "#/definitions/regionalrailstrike"
+          },
+          {
+            "$ref": "#/definitions/heavyrail"
+          },
+          {
+            "$ref": "#/definitions/heavyrailstrike"
+          },
+          {
+            "$ref": "#/definitions/hsr"
+          },
+          {
+            "$ref": "#/definitions/hsrstrike"
+          },
+          {
+            "$ref": "#/definitions/tracks"
+          },
+          {
+            "$ref": "#/definitions/tracks-future"
+          },
+          {
+            "$ref": "#/definitions/overpass"
+          },
+          {
+            "$ref": "#/definitions/station-platforms"
+          },
+          {
+            "$ref": "#/definitions/station-platforms-future"
+          },
+          {
+            "$ref": "#/definitions/station-label"
+          },
+          {
+            "$ref": "#/definitions/station-connector-label"
+          },
+          {
+            "$ref": "#/definitions/yard-label"
+          },
+          {
+            "$ref": "#/definitions/tunnel"
+          }
         ]
       }
     }
@@ -43,36 +95,52 @@
     "Point": {
       "type": "object",
       "properties": {
-        "type": { "const": "Point" },
+        "type": {
+          "const": "Point"
+        },
         "coordinates": {
           "type": "array",
           "maxItems": 2,
           "minItems": 2,
-          "items": { "type": "number" }
+          "items": {
+            "type": "number"
+          }
         }
       },
-      "required": ["type", "coordinates"]
+      "required": [
+        "type",
+        "coordinates"
+      ]
     },
     "LineString": {
       "type": "object",
       "properties": {
-        "type": { "const": "LineString" },
+        "type": {
+          "const": "LineString"
+        },
         "coordinates": {
           "type": "array",
           "items": {
             "type": "array",
             "maxItems": 2,
             "minItems": 2,
-            "items": { "type": "number" }
+            "items": {
+              "type": "number"
+            }
           }
         }
       },
-      "required": ["type", "coordinates"]
+      "required": [
+        "type",
+        "coordinates"
+      ]
     },
     "Polygon": {
       "type": "object",
       "properties": {
-        "type": { "const": "Polygon" },
+        "type": {
+          "const": "Polygon"
+        },
         "coordinates": {
           "type": "array",
           "items": {
@@ -81,17 +149,24 @@
               "type": "array",
               "maxItems": 2,
               "minItems": 2,
-              "items": { "type": "number" }
+              "items": {
+                "type": "number"
+              }
             }
           }
         }
       },
-      "required": ["type", "coordinates"]
+      "required": [
+        "type",
+        "coordinates"
+      ]
     },
     "MultiPolygon": {
       "type": "object",
       "properties": {
-        "type": { "const": "MultiPolygon" },
+        "type": {
+          "const": "MultiPolygon"
+        },
         "coordinates": {
           "type": "array",
           "items": {
@@ -102,321 +177,566 @@
                 "type": "array",
                 "maxItems": 2,
                 "minItems": 2,
-                "items": { "type": "number" }
+                "items": {
+                  "type": "number"
+                }
               }
             }
           }
         }
       },
-      "required": ["type", "coordinates"]
+      "required": [
+        "type",
+        "coordinates"
+      ]
     },
-
     "alignment": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "alignment" },
-            "layer": { "type": "number" }
+            "type": {
+              "const": "alignment"
+            },
+            "layer": {
+              "type": "number"
+            }
           },
-          "required": ["type"]
+          "required": [
+            "type"
+          ]
         },
         "geometry": {
           "$ref": "#/definitions/LineString"
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "tram": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "tram" },
-            "layer": { "type": "number" }
+            "type": {
+              "const": "tram"
+            },
+            "layer": {
+              "type": "number"
+            }
           },
-          "required": ["type"]
+          "required": [
+            "type"
+          ]
         },
         "geometry": {
           "$ref": "#/definitions/LineString"
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "tramstrike": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "tramstrike" },
-            "layer": { "type": "number" }
+            "type": {
+              "const": "tramstrike"
+            },
+            "layer": {
+              "type": "number"
+            }
           },
-          "required": ["type"]
+          "required": [
+            "type"
+          ]
         },
         "geometry": {
           "$ref": "#/definitions/LineString"
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "tramstrikedark": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "tramstrikedark" },
-            "layer": { "type": "number" }
+            "type": {
+              "const": "tramstrikedark"
+            },
+            "layer": {
+              "type": "number"
+            }
           },
-          "required": ["type"]
+          "required": [
+            "type"
+          ]
         },
         "geometry": {
           "$ref": "#/definitions/LineString"
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "brt": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "brt" },
-            "layer": { "type": "number" }
+            "type": {
+              "const": "brt"
+            },
+            "layer": {
+              "type": "number"
+            }
           },
-          "required": ["type"]
+          "required": [
+            "type"
+          ]
         },
         "geometry": {
           "$ref": "#/definitions/LineString"
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "brtpunch": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "brtpunch" },
-            "layer": { "type": "number" }
+            "type": {
+              "const": "brtpunch"
+            },
+            "layer": {
+              "type": "number"
+            }
           },
-          "required": ["type"]
+          "required": [
+            "type"
+          ]
         },
         "geometry": {
           "$ref": "#/definitions/LineString"
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "tracks": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "tracks" },
-            "layer": { "type": "number" }
+            "type": {
+              "const": "tracks"
+            },
+            "layer": {
+              "type": "number"
+            }
           },
-          "required": ["type"]
+          "required": [
+            "type"
+          ]
         },
         "geometry": {
           "$ref": "#/definitions/LineString"
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "tracks-future": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "tracks-future" },
-            "layer": { "type": "number" }
+            "type": {
+              "const": "tracks-future"
+            },
+            "layer": {
+              "type": "number"
+            }
           },
-          "required": ["type"]
+          "required": [
+            "type"
+          ]
         },
         "geometry": {
           "$ref": "#/definitions/LineString"
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "overpass": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "overpass" },
-            "layer": { "type": "number" }
+            "type": {
+              "const": "overpass"
+            },
+            "layer": {
+              "type": "number"
+            }
           },
-          "required": ["type"]
+          "required": [
+            "type"
+          ]
         },
         "geometry": {
           "$ref": "#/definitions/LineString"
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "station-platforms": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "station-platforms" },
-            "name": { "type": "string" },
-            "layer": { "type": "number" }
+            "type": {
+              "const": "station-platforms"
+            },
+            "name": {
+              "type": "string"
+            },
+            "layer": {
+              "type": "number"
+            }
           },
-          "required": ["type", "name"]
+          "required": [
+            "type",
+            "name"
+          ]
         },
         "geometry": {
           "oneOf": [
-            { "$ref": "#/definitions/MultiPolygon" },
-            { "$ref": "#/definitions/Polygon" }
+            {
+              "$ref": "#/definitions/MultiPolygon"
+            },
+            {
+              "$ref": "#/definitions/Polygon"
+            }
           ]
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "station-platforms-future": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "station-platforms-future" },
-            "name": { "type": "string" },
-            "layer": { "type": "number" }
+            "type": {
+              "const": "station-platforms-future"
+            },
+            "name": {
+              "type": "string"
+            },
+            "layer": {
+              "type": "number"
+            }
           },
-          "required": ["type", "name"]
+          "required": [
+            "type",
+            "name"
+          ]
         },
         "geometry": {
           "oneOf": [
-            { "$ref": "#/definitions/MultiPolygon" },
-            { "$ref": "#/definitions/Polygon" }
+            {
+              "$ref": "#/definitions/MultiPolygon"
+            },
+            {
+              "$ref": "#/definitions/Polygon"
+            }
           ]
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "station-label": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "station-label" },
-            "name": { "type": "string" },
-            "major": { "type": "boolean" },
+            "type": {
+              "const": "station-label"
+            },
+            "name": {
+              "type": "string"
+            },
+            "major": {
+              "type": "boolean"
+            },
             "url": {
               "oneOf": [
-                { "type": "string", "format": "uri-reference" },
-                { "type": "null" }
+                {
+                  "type": "string",
+                  "format": "uri-reference"
+                },
+                {
+                  "type": "null"
+                }
               ]
             },
-            "lines": { "type": "array", "items": { "type": "string" } },
-            "searchTerms": { "type": "array", "items": { "type": "string" } },
-            "scale": { "enum": ["regular", "large"] }
+            "lines": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "searchTerms": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "scale": {
+              "enum": [
+                "regular",
+                "large"
+              ]
+            }
           },
-          "required": ["type", "name", "lines"]
+          "required": [
+            "type",
+            "name",
+            "lines"
+          ]
         },
         "geometry": {
           "$ref": "#/definitions/Point"
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "station-connector-label": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "station-connector-label" },
-            "name": { "type": "string" },
+            "type": {
+              "const": "station-connector-label"
+            },
+            "name": {
+              "type": "string"
+            },
             "url": {
               "oneOf": [
-                { "type": "string", "format": "uri-reference" },
-                { "type": "null" }
+                {
+                  "type": "string",
+                  "format": "uri-reference"
+                },
+                {
+                  "type": "null"
+                }
               ]
             },
-            "lines": { "type": "array", "items": { "type": "string" } }
+            "lines": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
           },
-          "required": ["type", "name", "lines"]
+          "required": [
+            "type",
+            "name",
+            "lines"
+          ]
         },
         "geometry": {
           "$ref": "#/definitions/LineString"
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "yard-label": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "yard-label" },
-            "name": { "type": "string" },
+            "type": {
+              "const": "yard-label"
+            },
+            "name": {
+              "type": "string"
+            },
             "url": {
               "oneOf": [
-                { "type": "string", "format": "uri-reference" },
-                { "type": "null" }
+                {
+                  "type": "string",
+                  "format": "uri-reference"
+                },
+                {
+                  "type": "null"
+                }
               ]
             }
           },
-          "required": ["type", "name"]
+          "required": [
+            "type",
+            "name"
+          ]
         },
         "geometry": {
           "$ref": "#/definitions/Point"
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "tunnel": {
       "type": "object",
       "properties": {
-        "type": { "const": "Feature" },
+        "type": {
+          "const": "Feature"
+        },
         "properties": {
           "type": "object",
           "properties": {
-            "type": { "const": "tunnel" }
+            "type": {
+              "const": "tunnel"
+            }
           },
-          "required": ["type"]
+          "required": [
+            "type"
+          ]
         },
         "geometry": {
           "$ref": "#/definitions/Polygon"
         }
       },
-      "required": ["type", "properties", "geometry"]
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
     },
     "metadata-rail-line": {
       "type": "object",
-      "allOf": [{ "$ref": "#/definitions/info" }],
+      "allOf": [
+        {
+          "$ref": "#/definitions/info"
+        }
+      ],
       "properties": {
         "type": {
-          "enum": ["rail-line", "streetcar-line"]
+          "enum": [
+            "rail-line",
+            "streetcar-line"
+          ]
         },
         "color": {
           "type": "string",
@@ -434,36 +754,79 @@
         },
         "alternatives": {
           "type": "array",
-          "items": { "type": "string" }
+          "items": {
+            "type": "string"
+          }
         }
       },
-      "required": ["id", "type", "color"]
+      "required": [
+        "id",
+        "type",
+        "color"
+      ]
     },
     "metadata-rail-yard": {
-      "allOf": [{ "$ref": "#/definitions/info" }],
+      "allOf": [
+        {
+          "$ref": "#/definitions/info"
+        }
+      ],
       "type": "object",
       "properties": {
         "type": {
-          "enum": ["rail-yard", "streetcar-yard"]
+          "enum": [
+            "rail-yard",
+            "streetcar-yard"
+          ]
         },
         "id": {
           "type": "string"
         }
       },
-      "required": ["type", "id"]
+      "required": [
+        "type",
+        "id"
+      ]
     },
     "info": {
       "type": "object",
       "properties": {
-        "filterKey": { "type": "string" },
-        "sources": { "type": "array", "items": { "type": "string" } },
-        "name": { "type": "string" },
-        "description": { "type": "string" },
-        "searchTerms": { "type": "array", "items": { "type": "string" } },
-        "notes": { "type": "string" },
-        "alternatives": { "type": "array", "items": { "type": "string" } }
+        "filterKey": {
+          "type": "string"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "searchTerms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        },
+        "alternatives": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       },
-      "required": ["sources", "name", "description"]
+      "required": [
+        "sources",
+        "name",
+        "description"
+      ]
     }
   }
 }

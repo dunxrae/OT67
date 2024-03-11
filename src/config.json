@@ -49,7 +49,8 @@
         "ottawa/brtAV-avalon.json",
         "ottawa/brtJD-jeannedarc.json",
         "ottawa/brtPI-petrieisland.json",
-        "ottawa/via-union.json"
+        "ottawa/via-union.json",
+        "ottawa/via-turbo-one.json"
       ]
     },
     {
@@ -137,14 +138,11 @@
         "viarail"
       ],
       "location": [
-        -79.383849,
-        43.653482
+        -77.8325013,
+      45.0828128
       ],
       "bbox": [
-        -130.35971,
-        42.29556,
-        -63.26974,
-        58.76772
+        -84.378093,41.410379,-70.723848,48.61112
       ],
       "tier": 1
     }

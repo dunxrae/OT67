@@ -18,7 +18,7 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "tracks"
+        "type": "heavyrail"
       },
       "geometry": {
         "coordinates": [
@@ -616,7 +616,7 @@
     },
     {
       "type": "Feature",
-      "properties": {"type": "tracks"},
+      "properties": {"type": "heavyrail"},
       "geometry": {
         "coordinates": [
           [
@@ -1238,7 +1238,7 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "tracks"
+        "type": "heavyrail"
       },
       "geometry": {
         "coordinates": [
@@ -1292,7 +1292,7 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "tracks"
+        "type": "heavyrail"
       },
       "geometry": {
         "coordinates": [

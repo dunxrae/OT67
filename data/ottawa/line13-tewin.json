@@ -22,7 +22,7 @@
         {
             "type": "Feature",
             "properties": {
-              "type": "tracks",
+              "type": "heavyrail",
               "offsetFactor": null
             },
             "geometry": {
@@ -91,7 +91,7 @@
         {
             "type": "Feature",
             "properties": {
-                "type": "tracks"
+                "type": "heavyrail"
             },
             "geometry": {
                 "coordinates": [

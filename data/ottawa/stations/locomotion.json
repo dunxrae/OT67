@@ -1,0 +1,18 @@
+{
+  "type": "Feature",
+  "properties": {
+    "lines": [
+      "ottawa/5"
+    ],
+    "type": "station-label",
+    "name": "Locomotion",
+    "major": true
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -75.8966140902346,
+      45.275350024780096
+    ]
+  }
+}
