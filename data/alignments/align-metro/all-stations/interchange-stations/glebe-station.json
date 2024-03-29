@@ -1,0 +1,28 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-glebe",
+            "lines": [
+                "metro/2",
+                "metro/5",
+                "metro/8",
+                "metro/9"
+            ],
+            "type": "station-label",
+            "name": "Glebe",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.68986256315861,
+          45.40516322134897
+            ]
+        }
+    }
+    
+    ]

@@ -1,0 +1,90 @@
+    [
+    
+    
+    
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-main",
+                "lines": [
+                    "metro/5",
+                    "metro/9"
+                ],
+                "type": "station-label",
+                "name": "Main",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.67835819434374,
+          45.40971008750168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-hurdman",
+                "lines": [
+                    "metro/5",
+                    "metro/9"
+                ],
+                "type": "station-label",
+                "name": "Hurdman",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.66414000382076,
+          45.41191916532924
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-trainyards",
+                "lines": [
+                    "metro/5",
+                    "metro/9"
+                ],
+                "type": "station-label",
+                "name": "Trainyards",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.64999216535804,
+          45.41170000074263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-industrial",
+                "lines": [
+                    "metro/5",
+                    "metro/9"
+                ],
+                "type": "station-label",
+                "name": "Industrial",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.63826622214215,
+          45.410085320542805
+                ]
+            }
+        }
+
+    
+        
+        
+        
+        ]

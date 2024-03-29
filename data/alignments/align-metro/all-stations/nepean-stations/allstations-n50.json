@@ -1,0 +1,103 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-slack",
+            "lines": [
+                "metro/4"
+            ],
+            "type": "station-label",
+            "name": "Slack",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.71908309520826,
+          45.32630140804494
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-fallowfield",
+            "lines": [
+                "metro/4"
+            ],
+            "type": "station-label",
+            "name": "Fallowfield",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.73632332491354,
+          45.29933760173381
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-longfields",
+            "lines": [
+                "metro/4"
+            ],
+            "type": "station-label",
+            "name": "Longfields",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.74700241309964,
+          45.285534599708
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-strandherd",
+            "lines": [
+                "metro/4"
+            ],
+            "type": "station-label",
+            "name": "Strandherd",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.7459648493119,
+          45.274167072757564
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-barrhaven",
+            "lines": [
+                "metro/4"
+            ],
+            "type": "station-label",
+            "name": "Barrhaven",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.74109545401429,
+          45.26726518513655
+            ]
+        }
+    }
+
+    
+    
+    ]

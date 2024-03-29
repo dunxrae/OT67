@@ -1,0 +1,28 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-innes",
+            "lines": [
+                "metro/2",
+                "metro/5",
+                "metro/9",
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "Innes",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.62841272025186,
+          45.408046900196695
+            ]
+        }
+    }
+    
+    ]

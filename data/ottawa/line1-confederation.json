@@ -4,9 +4,9 @@
   "metadata": {
     "id": "ottawa/1",
     "type": "rail-line",
-    "color": "#FF0000",
+    "color": "#f20c0c",
     "offset": 0.5,
-    "icon": "ottawa/1.svg",
+    "icon": "metro/1.svg",
     "name": "Line 1: Confederation",
     "description": "Algonquin - Sweetvalley",
     "filterKey": "!metro",

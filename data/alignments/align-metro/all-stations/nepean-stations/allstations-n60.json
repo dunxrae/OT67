@@ -1,0 +1,71 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-casino",
+            "lines": [
+                "metro/4",
+                "metro/6",
+                "metro/8"
+            ],
+            "type": "station-label",
+            "name": "Casino",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.72539279262453,
+          45.44781526254931
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-canevas",
+            "lines": [
+                "metro/4",
+                "metro/6",
+                "metro/8"
+            ],
+            "type": "station-label",
+            "name": "Canevas",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.73397183421032,
+          45.447520746733886
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-mousette",
+            "lines": [
+                "metro/4",
+                "metro/6",
+                "metro/8"
+            ],
+            "type": "station-label",
+            "name": "Mousette",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.74625973021952,
+          45.446606546933566
+            ]
+        }
+    }
+
+    
+    
+    ]

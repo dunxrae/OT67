@@ -3,64 +3,89 @@
     {
       "id": "otransit",
       "name": "Ottawa Transit",
-      "bbox": [-75.94349896585783, 45.232196521421265, -75.42677992965803, 45.51223069495376],
+      "bbox": [-79.3853181254421,43.643472152494695,-73.56635042893953,45.51223069495376],
       "data": [
         "ottawa/yard-belfast.json",
         "ottawa/yard-greenbank.json",
         "ottawa/yard-moodie.json",
         "ottawa/yard-walkley.json",
         "ottawa/line1-confederation.json",
-        "ottawa/line2-trillium.json",
-        "ottawa/line3-crosstown.json",
-        "ottawa/line4-aviation.json",
-        "ottawa/line5-central.json",
-        "ottawa/line6-nepean.json",
-        "ottawa/line7-hurdman.json",
-        "ottawa/line8-lacleamy.json",
-        "ottawa/line9-beachburg.json",
-        "ottawa/line10-oldchelsea.json",
-        "ottawa/line11-stittsville.json",
-        "ottawa/line12-fallowfield.json",
-        "ottawa/line13-tewin.json",
-        "ottawa/line14-cardinal.json",
-        "ottawa/line15-eardley.json",
-        "ottawa/lineA-aylmer.json",
-        "ottawa/lineB-bank.json",
-        "ottawa/lineC-carleton.json",
-        "ottawa/lineD-deschenes.json",
-        "ottawa/lineE-verendrye.json",
-        "ottawa/lineG-grives.json",
-        "ottawa/lineH-hospital.json",
-        "ottawa/lineJ-jockvale.json",
-        "ottawa/lineL-laurentian.json",
-        "ottawa/lineM-montcalm.json",
-        "ottawa/lineN-promenades.json",
-        "ottawa/lineO-greenboro.json",
-        "ottawa/lineP-plateau.json",
-        "ottawa/lineS-somerset.json",
-        "ottawa/lineV-stittsville.json",
-        "ottawa/lineY-sandyhill.json",
-        "ottawa/brtBL-baseline.json",
-        "ottawa/brtWA-walkley.json",
-        "ottawa/brtCH-chapmanmills.json",
-        "ottawa/brtBH-barrhaven.json",
-        "ottawa/brtKA-kanata.json",
-        "ottawa/brtEA-eagleson.json",
-        "ottawa/brtAV-avalon.json",
-        "ottawa/brtJD-jeannedarc.json",
-        "ottawa/brtPI-petrieisland.json",
-        "ottawa/via-union.json",
-        "ottawa/via-turbo-one.json"
+        "ottawa/line3-crosstown.json"
       ]
     },
     {
-      "id": "go-ncr",
-      "name": "GO Transit",
-      "bbox": [-77.28024844996973, 45.01174614467169, -74.72785741593778, 45.89588967450436],
+      "id": "metro",
+      "name": "Metro Lines",
+      "bbox": [-79.3853181254421,43.643472152494695,-73.56635042893953,45.51223069495376],
       "data": [
-        "go-ncr/go-northwestern.json",
-        "go-ncr/go-almonte.json",
-        "go-ncr/go-union.json"
+        "metro/metro-1.json",
+        "metro/metro-2.json",
+        "metro/metro-3.json",
+        "metro/metro-4.json",
+        "metro/metro-5.json",
+        "metro/metro-6.json",
+        "metro/metro-7.json",
+        "metro/metro-8.json",
+        "metro/metro-9.json",
+        "metro/metro-10.json"
+      ]
+    },
+    {
+      "id": "intercity",
+      "name": "Intercity Lines",
+      "bbox": [-75.9194045640663,45.258611190888004,-75.42677992965803,45.51223069495376],
+      "data": [
+        "intercity/intercity-apx.json",
+        "intercity/intercity-i20.json",
+        "intercity/intercity-i22.json",
+        "intercity/intercity-i24.json",
+        "intercity/intercity-i40.json",
+        "intercity/intercity-i42.json",
+        "intercity/intercity-i44.json",
+        "intercity/intercity-i60.json",
+        "intercity/intercity-i62.json",
+        "intercity/intercity-i80.json"
+      ]
+    },
+    {
+      "id": "trams",
+      "name": "Tram Lines",
+      "bbox": [-79.3853181254421,43.643472152494695,-73.56635042893953,45.51223069495376],
+      "data": [
+        "trams/tram-a.json",
+        "trams/tram-b.json",
+        "trams/tram-c.json",
+        "trams/tram-d.json",
+        "trams/tram-e.json",
+        "trams/tram-g.json",
+        "trams/tram-h.json",
+        "trams/tram-j.json",
+        "trams/tram-l.json",
+        "trams/tram-m.json",
+        "trams/tram-n.json",
+        "trams/tram-o.json",
+        "trams/tram-p.json",
+        "trams/tram-r.json",
+        "trams/tram-s.json",
+        "trams/tram-t.json",
+        "trams/tram-w.json",
+        "trams/tram-y.json"
+      ]
+    },
+    {
+      "id": "rapidbus",
+      "name": "Rapid Bus Lines",
+      "bbox": [-79.3853181254421,43.643472152494695,-73.56635042893953,45.51223069495376],
+      "data": [
+        "rapidbus/rapidbus-av.json",
+        "rapidbus/rapidbus-bh.json",
+        "rapidbus/rapidbus-bl.json",
+        "rapidbus/rapidbus-ch.json",
+        "rapidbus/rapidbus-ea.json",
+        "rapidbus/rapidbus-jd.json",
+        "rapidbus/rapidbus-ka.json",
+        "rapidbus/rapidbus-pi.json",
+        "rapidbus/rapidbus-wa.json"
       ]
     },
     {
@@ -68,15 +93,15 @@
       "name": "Transit by Mode Type",
       "bbox": [-77.28024844996973, 45.01174614467169, -74.72785741593778, 45.89588967450436],
       "data": [
-        "modes/modes-regional.json",
         "modes/modes-metro.json",
-        "modes/modes-brt.json",
+        "modes/modes-intercity.json",
+        "modes/modes-rapidbus.json",
         "modes/modes-trams.json"
       ]
     },
     {
       "id": "viarail",
-      "name": "VIA Rail Canada",
+      "name": "VIA Rail",
       "bbox": [
         -130.35971,
         42.29556,
@@ -85,50 +110,30 @@
       ],
       "data": [
         "viarail/corridor.json",
-        "viarail/canadian.json",
-        "viarail/churchill.json",
-        "viarail/jonquiere.json",
-        "viarail/ocean.json",
-        "viarail/rupert.json",
-        "viarail/senneterre.json",
-        "viarail/whiteriver.json",
-        "viarail/montrealmaintenance.json",
-        "viarail/torontomaintenance.json",
-        "viarail/vancouvermaintenance.json",
-        "viarail/winnipegmaintenance.json"
+        "viarail/via-turbo-one.json",
+        "viarail/via-union.json",
+        "viarail/via-local-almonte.json",
+        "viarail/via-local-northwestern.json"
       ]
     }
   ],
-
-
-
-
   "regions": [
     {
       "id": "ottawa",
       "title": "Ottawa",
       "agencies": [
         "otransit",
+        "metro",
+        "intercity",
+        "trams",
+        "rapidbus",
         "modes"
       ],
       "location": [
         -75.691042,
         45.420472
       ],
-      "bbox": [-75.94349896585783, 45.232196521421265, -75.42677992965803, 45.51223069495376],
-      "tier": 2
-    },
-    {
-      "id": "go-ncr",
-      "title": "GO Transit",
-      "agencies": [
-        "go-ncr"
-      ],
-      "location": [
-        -75.691042,
-        45.420472
-      ],
-      "bbox": [-77.28024844996973, 45.01174614467169, -74.72785741593778, 45.89588967450436],
+      "bbox": [-75.9439123,45.232196521421265,-75.42677992965803,45.51223069495376],
       "tier": 2
     },
     {
@@ -141,9 +146,7 @@
         -77.8325013,
       45.0828128
       ],
-      "bbox": [
-        -84.378093,41.410379,-70.723848,48.61112
-      ],
+      "bbox": [-130.35971,42.29556,-63.26974,58.76772],
       "tier": 1
     }
   ]

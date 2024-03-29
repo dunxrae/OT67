@@ -1,0 +1,29 @@
+{
+    "type": "FeatureCollection",
+    "name": "All Metro",
+    "metadata": {
+        "id": "metro/all",
+        "type": "rail-line",
+        "color": "#f20c0c",
+        "offset": 0,
+        "icon": "ottawa/1.svg",
+        "name": "Metro Lines",
+        "description": "All Metro Line Alignments",
+        "filterKey": "metro",
+        "sources": [
+            "N/A"
+        ],
+        "searchTerms": [
+            "Metro Lines"
+        ]
+    },
+    "bbox": [
+        -75.76739393749584,
+        45.26663374353053,
+        -75.70920425184622,
+        45.459802419171965
+    ],
+    "features": [
+
+    ]
+}

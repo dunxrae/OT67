@@ -1,0 +1,24 @@
+{
+    "type": "FeatureCollection",
+    "name": "All Stations Along c0 Alignment",
+    "metadata": {
+        "id": "metro/c0stations",
+        "type": "rail-line",
+        "color": "#000000",
+        "offset": 0,
+        "icon": "metro/2.svg",
+        "name": "All Stations Along c0 Alignment"
+    },
+    "bbox": [-75.9075564,45.2746757,-75.4591188,45.4765028],
+    "features": [
+        
+
+
+
+
+
+
+
+        
+    ]
+}

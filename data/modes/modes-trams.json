@@ -4,7 +4,7 @@
   "metadata": {
       "id": "modes/alltrams",
       "type": "rail-line",
-      "color": "#fcee21",
+      "color": "#f2e520",
       "offset": 1.0,
       "icon": "ottawa/y.svg",
       "name": "All Tram Lines",

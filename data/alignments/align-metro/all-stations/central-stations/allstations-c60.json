@@ -1,0 +1,170 @@
+    [
+    
+    
+    
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-sheffield",
+                "lines": [
+                    "metro/2",
+                    "metro/5"
+                ],
+                "type": "station-label",
+                "name": "Sheffield",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.6167755826225,
+          45.41135513871765
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-blackburnhamlet",
+                "lines": [
+                    "metro/2",
+                    "metro/5"
+                ],
+                "type": "station-label",
+                "name": "Blackburn Hamlet",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.56367056238672,
+          45.43195977044442
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-page",
+                "lines": [
+                    "metro/2",
+                    "metro/5"
+                ],
+                "type": "station-label",
+                "name": "Page",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.52811870668981,
+          45.44627432582476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-belcourt",
+                "lines": [
+                    "metro/2",
+                    "metro/5"
+                ],
+                "type": "station-label",
+                "name": "Belcourt",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.51236947545624,
+          45.452658901351015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-vanguard",
+                "lines": [
+                    "metro/2",
+                    "metro/5"
+                ],
+                "type": "station-label",
+                "name": "Vanguard",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.49617509443958,
+          45.45418655233263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-avalon",
+                "lines": [
+                    "metro/2",
+                    "metro/5"
+                ],
+                "type": "station-label",
+                "name": "Avalon",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.48574319019026,
+          45.45718292546698
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-portobello",
+                "lines": [
+                    "metro/2",
+                    "metro/5"
+                ],
+                "type": "station-label",
+                "name": "Portobello",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.4690346457194,
+          45.4692486753373
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-cardinal",
+                "lines": [
+                    "metro/2",
+                    "metro/5"
+                ],
+                "type": "station-label",
+                "name": "Cardinal",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.45952190757244,
+          45.47620818313942
+                ]
+            }
+        }
+
+    
+        
+        
+        
+        ]

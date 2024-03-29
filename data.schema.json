@@ -370,6 +370,186 @@
         "geometry"
       ]
     },
+    "regionalrail": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "Feature"
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "regionalrail"
+            },
+            "layer": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        "geometry": {
+          "$ref": "#/definitions/LineString"
+        }
+      },
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
+    },
+    "regionalrailstrike": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "Feature"
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "regionalrailstrike"
+            },
+            "layer": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        "geometry": {
+          "$ref": "#/definitions/LineString"
+        }
+      },
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
+    },
+    "heavyrail": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "Feature"
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "heavyrail"
+            },
+            "layer": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        "geometry": {
+          "$ref": "#/definitions/LineString"
+        }
+      },
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
+    },
+    "heavyrailstrike": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "Feature"
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "heavyrailstrike"
+            },
+            "layer": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        "geometry": {
+          "$ref": "#/definitions/LineString"
+        }
+      },
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
+    },
+    "hsr": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "Feature"
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "hsr"
+            },
+            "layer": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        "geometry": {
+          "$ref": "#/definitions/LineString"
+        }
+      },
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
+    },
+    "hsrstrike": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "Feature"
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "hsrstrike"
+            },
+            "layer": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        "geometry": {
+          "$ref": "#/definitions/LineString"
+        }
+      },
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ]
+    },
     "tracks": {
       "type": "object",
       "properties": {

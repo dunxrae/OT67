@@ -1,0 +1,26 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-elmvaleacres",
+            "lines": [
+                "metro/9",
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "Elmvale Acres",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.62372758822673,
+          45.39987629787933
+            ]
+        }
+    }
+    
+    ]

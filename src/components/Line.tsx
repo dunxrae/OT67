@@ -431,7 +431,7 @@ export const Lines = React.memo(
             "line-sort-key": ["get", "layer"],
           }}
           paint={{
-            "line-color": "#000000",
+            "line-color": ["get", "color"],
             "line-opacity": [
               "interpolate",
               ["linear"],
@@ -446,9 +446,9 @@ export const Lines = React.memo(
               ["exponential", 2],
               ["zoom"],
               14,
-              1,
+              0.75,
               20,
-              25,
+              20,
             ],
             "line-offset": [
               "interpolate",
@@ -527,7 +527,7 @@ export const Lines = React.memo(
               ["linear"],
               ["zoom"],
               14,
-              1,
+              1.2,
               20,
               0.3,
             ],
@@ -536,7 +536,7 @@ export const Lines = React.memo(
               ["exponential", 2],
               ["zoom"],
               14,
-              3,
+              4,
               20,
               75,
             ],
@@ -742,7 +742,7 @@ export const Lines = React.memo(
           }}
           paint={{
             "line-color": ["get", "color"],
-            "line-width": 3,
+            "line-width": 2,
             "line-offset": ["*", ["get", "offset"], 3],
           }}
         />
