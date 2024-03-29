@@ -324,14 +324,14 @@ export const Lines = React.memo(
               ["*", ["get", "offset"], 150],
             ],
           }}
-        />
+          />
         <Layer
-          id={`brt`}
+          id={`regionalrail`}
           {...LAYER_PROPS}
           type="line"
           filter={[
             "all",
-            ["==", ["get", "type"], "brt"],
+            ["==", ["get", "type"], "regionalrail"],
             ["!", ["in", ["get", "filterKey"], ["literal", filterList]]],
           ]}
           layout={{
@@ -370,18 +370,18 @@ export const Lines = React.memo(
             ],
           }}
         />
-                        <Layer
-          id={`brtpunch`}
+          <Layer
+          id={`regionalrailstrike`}
           {...LAYER_PROPS}
           type="line"
           filter={[
             "all",
-            ["==", ["get", "type"], "brtpunch"],
+            ["==", ["get", "type"], "regionalrailstrike"],
             ["!", ["in", ["get", "filterKey"], ["literal", filterList]]],
           ]}
           layout={{
             "line-join": "round",
-            "line-cap": "round",
+            "line-cap": "butt",
             "line-sort-key": ["get", "layer"],
           }}
           paint={{
@@ -413,7 +413,317 @@ export const Lines = React.memo(
               20,
               ["*", ["get", "offset"], 150],
             ],
-            "line-dasharray": [2, 4]
+            "line-dasharray": [5, 5]
+          }}
+        />
+        <Layer
+          id={`brt`}
+          {...LAYER_PROPS}
+          type="line"
+          filter={[
+            "all",
+            ["==", ["get", "type"], "brt"],
+            ["!", ["in", ["get", "filterKey"], ["literal", filterList]]],
+          ]}
+          layout={{
+            "line-join": "round",
+            "line-cap": "round",
+            "line-sort-key": ["get", "layer"],
+          }}
+          paint={{
+            "line-color": ["get", "color"],
+            "line-opacity": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              14,
+              1,
+              20,
+              0.3,
+            ],
+            "line-width": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              0.75,
+              20,
+              20,
+            ],
+            "line-offset": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              ["*", ["get", "offset"], 6],
+              20,
+              ["*", ["get", "offset"], 150],
+            ],
+          }}
+        />
+          <Layer
+          id={`brtreva`}
+          {...LAYER_PROPS}
+          type="line"
+          filter={[
+            "all",
+            ["==", ["get", "type"], "brtreva"],
+            ["!", ["in", ["get", "filterKey"], ["literal", filterList]]],
+          ]}
+          layout={{
+            "line-join": "round",
+            "line-cap": "butt",
+            "line-sort-key": ["get", "layer"],
+          }}
+          paint={{
+            "line-color": "#000000",
+            "line-opacity": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              14,
+              1,
+              20,
+              0.3,
+            ],
+            "line-width": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              3,
+              20,
+              75,
+            ],
+            "line-offset": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              ["*", ["get", "offset"], 6],
+              20,
+              ["*", ["get", "offset"], 150],
+            ]
+          }}
+          />
+          <Layer
+          id={`brtpunch`}
+          {...LAYER_PROPS}
+          type="line"
+          filter={[
+            "all",
+            ["==", ["get", "type"], "brtpunch"],
+            ["!", ["in", ["get", "filterKey"], ["literal", filterList]]],
+          ]}
+          layout={{
+            "line-join": "round",
+            "line-cap": "butt",
+            "line-sort-key": ["get", "layer"],
+          }}
+          paint={{
+            "line-color": ["get", "color"],
+            "line-opacity": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              14,
+              1.2,
+              20,
+              0.3,
+            ],
+            "line-width": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              4,
+              20,
+              75,
+            ],
+            "line-offset": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              ["*", ["get", "offset"], 6],
+              20,
+              ["*", ["get", "offset"], 150],
+            ],
+            "line-dasharray": [2.5,2.5]
+          }}
+          />
+          <Layer
+          id={`heavyrail`}
+          {...LAYER_PROPS}
+          type="line"
+          filter={[
+            "all",
+            ["==", ["get", "type"], "heavyrail"],
+            ["!", ["in", ["get", "filterKey"], ["literal", filterList]]],
+          ]}
+          layout={{
+            "line-join": "round",
+            "line-cap": "butt",
+            "line-sort-key": ["get", "layer"],
+          }}
+          paint={{
+            "line-color": ["get", "color"],
+            "line-opacity": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              14,
+              1,
+              20,
+              0.3,
+            ],
+            "line-width": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              3,
+              20,
+              75,
+            ],
+            "line-offset": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              ["*", ["get", "offset"], 6],
+              20,
+              ["*", ["get", "offset"], 150],
+            ],
+          }}
+        />
+          <Layer
+          id={`heavyrailstrike`}
+          {...LAYER_PROPS}
+          type="line"
+          filter={[
+            "all",
+            ["==", ["get", "type"], "heavyrailstrike"],
+            ["!", ["in", ["get", "filterKey"], ["literal", filterList]]],
+          ]}
+          layout={{
+            "line-join": "round",
+            "line-cap": "butt",
+            "line-sort-key": ["get", "layer"],
+          }}
+          paint={{
+            "line-color": "#000000",
+
+            "line-width": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              3,
+              20,
+              75,
+            ],
+            "line-offset": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              ["*", ["get", "offset"], 6],
+              20,
+              ["*", ["get", "offset"], 150],
+            ],
+            "line-dasharray": [10, 10]
+          }}
+        />
+          <Layer
+          id={`hsr`}
+          {...LAYER_PROPS}
+          type="line"
+          filter={[
+            "all",
+            ["==", ["get", "type"], "hsr"],
+            ["!", ["in", ["get", "filterKey"], ["literal", filterList]]],
+          ]}
+          layout={{
+            "line-join": "round",
+            "line-cap": "butt",
+            "line-sort-key": ["get", "layer"],
+          }}
+          paint={{
+            "line-color": ["get", "color"],
+            "line-opacity": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              14,
+              1,
+              20,
+              0.3,
+            ],
+            "line-width": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              3,
+              20,
+              75,
+            ],
+            "line-offset": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              ["*", ["get", "offset"], 6],
+              20,
+              ["*", ["get", "offset"], 150],
+            ],
+          }}
+        />
+        <Layer
+          id={`hsrstrike`}
+          {...LAYER_PROPS}
+          type="line"
+          filter={[
+            "all",
+            ["==", ["get", "type"], "hsrstrike"],
+            ["!", ["in", ["get", "filterKey"], ["literal", filterList]]],
+          ]}
+          layout={{
+            "line-join": "round",
+            "line-cap": "butt",
+            "line-sort-key": ["get", "layer"],
+          }}
+          paint={{
+            "line-color": "#FFFFFF",
+            "line-opacity": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              14,
+              1,
+              20,
+              0.3,
+            ],
+            "line-width": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              3,
+              20,
+              75,
+            ],
+            "line-offset": [
+              "interpolate",
+              ["exponential", 2],
+              ["zoom"],
+              14,
+              ["*", ["get", "offset"], 6],
+              20,
+              ["*", ["get", "offset"], 150],
+            ],
+            "line-dasharray": [10, 10]
           }}
         />
                 <Layer
@@ -432,7 +742,7 @@ export const Lines = React.memo(
           }}
           paint={{
             "line-color": ["get", "color"],
-            "line-width": 3,
+            "line-width": 2,
             "line-offset": ["*", ["get", "offset"], 3],
           }}
         />

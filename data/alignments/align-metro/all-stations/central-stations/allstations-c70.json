@@ -1,0 +1,124 @@
+    [
+    
+    
+    
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-eagleson",
+                "lines": [
+                    "metro/8"
+                ],
+                "type": "station-label",
+                "name": "Eagleson",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.88386991094394,
+          45.317424354639485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-maritime",
+                "lines": [
+                    "metro/8"
+                ],
+                "type": "station-label",
+                "name": "Maritime",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.89714642592138,
+          45.31465871464695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-terryfox",
+                "lines": [
+                    "metro/8"
+                ],
+                "type": "station-label",
+                "name": "Terry Fox",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.90628664911266,
+          45.30925683842841
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-didsbury",
+                "lines": [
+                    "metro/8"
+                ],
+                "type": "station-label",
+                "name": "Didsbury",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.91623231369329,
+          45.306043549496025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-arcadia",
+                "lines": [
+                    "metro/8"
+                ],
+                "type": "station-label",
+                "name": "Arcadia",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.93054346138169,
+          45.303128953148104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-kanatawest",
+                "lines": [
+                    "metro/8"
+                ],
+                "type": "station-label",
+                "name": "Kanata West",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.94157104519145,
+          45.29666723497061
+                ]
+            }
+        }
+
+    
+        
+        
+        
+        ]

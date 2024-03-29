@@ -17,7 +17,7 @@ export const Logo = () => {
   const isDarkTheme = useIsDarkTheme(appTheme);
 
   return (
-    <a href="https://www.dunrae.com">
+    <a href="https://www.ot67.ca">
       <LogoImg alt="OT67 Logo" src={isDarkTheme ? logoDark : logoLight} />
     </a>
   );

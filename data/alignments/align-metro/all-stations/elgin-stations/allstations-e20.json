@@ -1,0 +1,91 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-stlukes",
+            "lines": [
+                "metro/2",
+                "metro/6",
+                "metro/8"
+            ],
+            "type": "station-label",
+            "name": "St. Luke's",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.68754325307142,
+          45.41469619435114
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-elgin",
+            "lines": [
+                "metro/2",
+                "metro/6",
+                "metro/8"
+            ],
+            "type": "station-label",
+            "name": "Elgin",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.69296339352111,
+          45.42109548140658
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-rideau",
+            "lines": [
+                "metro/2",
+                "metro/6",
+                "metro/8"
+            ],
+            "type": "station-label",
+            "name": "Rideau",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.69409512252604,
+          45.42633967440602
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-murray",
+            "lines": [
+                "metro/2",
+                "metro/6",
+                "metro/8"
+            ],
+            "type": "station-label",
+            "name": "Murray",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.6884568075177,
+          45.43188736455224
+            ]
+        }
+    }
+    
+    
+    ]

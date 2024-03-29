@@ -14,7 +14,6 @@ import {
   Snackbar,
   TextField,
   Typography,
-  useMediaQuery,
 } from "@mui/material";
 import makeStyles from "@mui/styles/makeStyles";
 import { Close, ContentCopy } from "@mui/icons-material";
@@ -47,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
   },
   buttonText: {
     width: "100%",
-    overflow: "hidden",
+    overflow: "visible",
     textOverflow: "ellipsis",
     whiteSpace: "nowrap",
   },
@@ -57,7 +56,6 @@ export const LineKeyDrawer = () => {
   const {
     lineKeyDrawerOpen,
     setLineKeyDrawerOpen,
-    lineFilterState,
     appTheme,
     mapStyle,
   } = useAppState();
@@ -90,6 +88,7 @@ export const LineKeyDrawer = () => {
             <Close />
           </IconButton>
         </DialogTitle>
+        "hello"
       </Dialog>
       <Snackbar
         anchorOrigin={{ vertical: "bottom", horizontal: "center" }}

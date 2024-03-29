@@ -1,0 +1,21 @@
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                -75.68986275483809,
+                45.40516303451132
+            ],
+            [
+                -75.6864193,
+                45.406564
+            ]
+        ]
+    },
+    "properties": {
+        "type": "tracks",
+        "name": "align-g3",
+        "id": "align-g3"
+    }
+}

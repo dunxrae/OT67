@@ -1,0 +1,53 @@
+[
+    
+    
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-dowslake",
+            "lines": [
+                "metro/2",
+                "metro/4",
+                "metro/5",
+                "metro/7",
+                "metro/8",
+                "metro/9"
+            ],
+            "type": "station-label",
+            "name": "Dow's Lake",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.70924573748037,
+      45.396949323185254
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-dyson",
+            "lines": [
+                "metro/2",
+                "metro/5",
+                "metro/8",
+                "metro/9"
+            ],
+            "type": "station-label",
+            "name": "Dyson",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.69950210198176,
+          45.40116007302029
+            ]
+        }
+    }
+    
+    
+    
+    ]

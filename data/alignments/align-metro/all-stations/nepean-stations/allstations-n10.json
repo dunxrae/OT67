@@ -1,0 +1,147 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-thames",
+            "lines": [
+                "metro/4",
+                "metro/5"
+            ],
+            "type": "station-label",
+            "name": "Thames",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.73266446412082,
+          45.38446655911625
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-caldwell",
+            "lines": [
+                "metro/4",
+                "metro/5"
+            ],
+            "type": "station-label",
+            "name": "Caldwell",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.73225676167334,
+          45.372914270043935
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-skyline",
+            "lines": [
+                "metro/4",
+                "metro/5"
+            ],
+            "type": "station-label",
+            "name": "Skyline",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.7317745737624,
+          45.36439824113339
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-lotta",
+            "lines": [
+                "metro/4",
+                "metro/5"
+            ],
+            "type": "station-label",
+            "name": "Lotta",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.73673472687348,
+          45.358553623925786
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-emerald",
+            "lines": [
+                "metro/4",
+                "metro/5"
+            ],
+            "type": "station-label",
+            "name": "Emerald",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.73470159821349,
+          45.35357869411999
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-basil",
+            "lines": [
+                "metro/4",
+                "metro/5"
+            ],
+            "type": "station-label",
+            "name": "Basil",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.73073785638249,
+          45.34587452722758
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-roydon",
+            "lines": [
+                "metro/4",
+                "metro/5"
+            ],
+            "type": "station-label",
+            "name": "Roydon",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.72662571677982,
+          45.33868360794074
+            ]
+        }
+    }
+    
+    
+    ]

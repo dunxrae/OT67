@@ -1,0 +1,86 @@
+    [
+    
+    
+    
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-hazeldean",
+                "lines": [
+                    "metro/2"
+                ],
+                "type": "station-label",
+                "name": "Hazeldean",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.87795632669736,
+          45.30354006985473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-castlefrank",
+                "lines": [
+                    "metro/2"
+                ],
+                "type": "station-label",
+                "name": "Castlefrank",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.88956397593759,
+          45.297424723358006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-grantcrossing",
+                "lines": [
+                    "metro/2"
+                ],
+                "type": "station-label",
+                "name": "Grant Crossing",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.90443164449152,
+          45.28795456094093
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-locomotion",
+                "lines": [
+                    "metro/2"
+                ],
+                "type": "station-label",
+                "name": "Locomotion",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.89688439957436,
+          45.275788338419375
+                ]
+            }
+        }
+
+    
+        
+        
+        
+        ]

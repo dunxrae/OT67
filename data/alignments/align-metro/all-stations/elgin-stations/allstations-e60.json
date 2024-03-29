@@ -1,0 +1,47 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-lacleamy",
+            "lines": [
+                "metro/7",
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "Lac Leamy",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.71845642321821,
+          45.45171630967616
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-lagappe",
+            "lines": [
+                "metro/7",
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "La Gappe",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.71482831553969,
+          45.46854418382421
+            ]
+        }
+    }
+    
+    
+    ]

@@ -1,0 +1,21 @@
+{
+    "type": "Feature",
+    "properties": {
+        "type": "tracks",
+        "name": "align-c0",
+        "id": "align-c0"
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                -75.7299478,
+                45.387952
+            ],
+            [
+                -75.71380376815797,
+                45.3949656289888
+            ]
+        ]
+    }
+}

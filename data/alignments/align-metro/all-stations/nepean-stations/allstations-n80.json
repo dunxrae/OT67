@@ -1,0 +1,46 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-asticou",
+            "lines": [
+                "metro/4"
+            ],
+            "type": "station-label",
+            "name": "Asticou",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.7576920672827,
+          45.45053436913946
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-cegep",
+            "lines": [
+                "metro/4"
+            ],
+            "type": "station-label",
+            "name": "Cegep",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.76726572374058,
+          45.459186053447894
+            ]
+        }
+    }
+
+    
+    
+    ]

@@ -1,0 +1,110 @@
+    [
+    
+    
+    
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-jillbrown",
+                "lines": [
+                    "metro/2",
+                    "metro/8"
+                ],
+                "type": "station-label",
+                "name": "Jill Brown",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.79340841159666,
+          45.35946651458306
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-grenon",
+                "lines": [
+                    "metro/2",
+                    "metro/8"
+                ],
+                "type": "station-label",
+                "name": "Grenon",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.79799308431876,
+          45.354002855709155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-bayshore",
+                "lines": [
+                    "metro/2",
+                    "metro/8"
+                ],
+                "type": "station-label",
+                "name": "Bayshore",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.80708965403278,
+          45.34590823736522
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-baseline",
+                "lines": [
+                    "metro/2",
+                    "metro/8"
+                ],
+                "type": "station-label",
+                "name": "Baseline",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.80989789816255,
+          45.33266178901201
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-bellscorners",
+                "lines": [
+                    "metro/2",
+                    "metro/8"
+                ],
+                "type": "station-label",
+                "name": "Bells Corners",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.8332818187993,
+          45.322115439200786
+                ]
+            }
+        }
+
+    
+        
+        
+        
+        ]

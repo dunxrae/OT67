@@ -1,19 +1,19 @@
 {
     "type": "FeatureCollection",
-    "name": "Line3-Crosstown",
+    "name": "Line3-Vanier",
     "metadata": {
       "id": "ottawa/3",
       "type": "rail-line",
-      "color": "#C89800",
+      "color": "#ff9920",
       "offset": -0.5,
-      "icon": "ottawa/3.svg",
-      "name": "Line 3: Crosstown",
+      "icon": "metro/3.svg",
+      "name": "Line 3: Vanier",
       "description": "Trim - Terry Fox",
       "filterKey": "!metro",
       "sources": [
       ],
       "searchTerms": [
-        "Crosstown Line"
+        "Vanier Line"
       ]
     },
     "bbox": [-75.84210742823615, 45.3388915176561, -75.48071809798415, 45.4958336575269],
