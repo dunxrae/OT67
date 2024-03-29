@@ -1,0 +1,97 @@
+[
+    
+    
+    
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-churchill",
+            "lines": [
+                "metro/2",
+                "metro/7",
+                "metro/8",
+                "metro/9"
+            ],
+            "type": "station-label",
+            "name": "Churchill",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.74636403986077,
+              45.3808586905254
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-maitland",
+            "lines": [
+                "metro/2",
+                "metro/7",
+                "metro/8",
+                "metro/9"
+            ],
+            "type": "station-label",
+            "name": "Maitland",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.75664386203177,
+              45.37636063655276
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-carlingwood",
+            "lines": [
+                "metro/2",
+                "metro/7",
+                "metro/8",
+                "metro/9"
+            ],
+            "type": "station-label",
+            "name": "Carlingwood",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.76824505695174,
+              45.37128399134161
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-lincolnfields",
+            "lines": [
+                "metro/2",
+                "metro/7",
+                "metro/8",
+                "metro/9"
+            ],
+            "type": "station-label",
+            "name": "Lincoln Fields",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.7815013333822,
+              45.36548327104131
+            ]
+        }
+    }
+    
+    
+    
+    
+    ]

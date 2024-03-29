@@ -1,0 +1,21 @@
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                -75.628755,
+                45.4086648
+            ],
+            [
+                -75.6280728,
+                45.4074343
+            ]
+        ]
+    },
+    "properties": {
+        "type": "tracks",
+        "name": "align-i1",
+        "id": "align-i1"
+    }
+}

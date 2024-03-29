@@ -1,0 +1,45 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-lespromenades",
+            "lines": [
+                "metro/7"
+            ],
+            "type": "station-label",
+            "name": "Les Promenades",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.69743042625561,
+          45.47791761936202
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-lacite",
+            "lines": [
+                "metro/7"
+            ],
+            "type": "station-label",
+            "name": "La Cite",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.6820871509973,
+          45.48143803326738
+            ]
+        }
+    }
+    
+    
+    ]

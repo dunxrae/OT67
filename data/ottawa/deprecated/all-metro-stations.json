@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "name": "All Metro Stations",
+  "metadata": {
+    "name": "All Metro Stations",
+    "description": "All Metro Stations",
+    "filterKey": "!metro",
+    "sources": [
+      "N/A"
+    ],
+    "searchTerms": [
+      "All Metro Line Stations"
+    ]
+  },
+  "bbox": [-75.73621533115879,45.35916270512101,-75.62828736782629,45.407825534079194],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "lines": [
+          "ottawa/6"
+        ],
+        "type": "station-label",
+        "name": "Lotta Square",
+        "major": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.73621533115879,
+          45.35916270512101
+        ]
+      }
+    },
+    {
+      "name": "Innes",
+      "id": "stn-innes",
+      "type": "Feature",
+      "properties": {
+        "lines": [
+          "ottawa/5",
+          "ottawa/9",
+          "ottawa/13",
+          "ottawa/14",
+          "ottawa/wa"
+        ],
+        "type": "station-label",
+        "name": "Innes",
+        "major": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.62828736782629,
+          45.407825534079194
+        ]
+      }
+    }
+  ]
+}

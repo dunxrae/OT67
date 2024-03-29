@@ -1,0 +1,55 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-westgate",
+            "lines": [
+                "metro/2",
+                "metro/4",
+                "metro/5",
+                "metro/7",
+                "metro/8",
+                "metro/9"
+            ],
+            "type": "station-label",
+            "name": "Westgate",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.733931175956,
+      45.386198227300724
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-holland",
+            "lines": [
+                "metro/2",
+                "metro/4",
+                "metro/5",
+                "metro/7",
+                "metro/8",
+                "metro/9"
+            ],
+            "type": "station-label",
+            "name": "Holland",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.72556112512441,
+      45.38985486951657
+            ]
+        }
+    }
+    
+    
+    ]

@@ -1,0 +1,83 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-lansdowne",
+            "lines": [
+                "metro/6"
+            ],
+            "type": "station-label",
+            "name": "Lansdowne",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.68528540320038,
+          45.39764145224515
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-billingsbridge",
+            "lines": [
+                "metro/6"
+            ],
+            "type": "station-label",
+            "name": "Billings Bridge",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.67664510009125,
+          45.385013491206195
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-mooneysbay",
+            "lines": [
+                "metro/6"
+            ],
+            "type": "station-label",
+            "name": "Mooney's Bay",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.68492422570071,
+          45.37687636361218
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-hogsback",
+            "lines": [
+                "metro/6"
+            ],
+            "type": "station-label",
+            "name": "Hog's Back",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.69445824509961,
+          45.37204808240787
+            ]
+        }
+    }
+    
+    
+    ]

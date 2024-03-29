@@ -1,0 +1,65 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-antares",
+            "lines": [
+                "metro/5"
+            ],
+            "type": "station-label",
+            "name": "Antares",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.70550575263913,
+          45.33640991604054
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-riverside",
+            "lines": [
+                "metro/5"
+            ],
+            "type": "station-label",
+            "name": "Riverside",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.69061154094362,
+          45.33557345030303
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-airport",
+            "lines": [
+                "metro/5"
+            ],
+            "type": "station-label",
+            "name": "Airport",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.66921115131377,
+          45.325578662536685
+            ]
+        }
+    }
+
+    
+    
+    ]

@@ -1,0 +1,102 @@
+    [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-mcewen",
+                "lines": [
+                    "metro/7",
+                    "metro/9"
+                ],
+                "type": "station-label",
+                "name": "McEwen",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.78349600891116,
+                    45.37064723103953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-riverrain",
+                "lines": [
+                    "metro/7",
+                    "metro/9"
+                ],
+                "type": "station-label",
+                "name": "Riverrain",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.81428347540894,
+                    45.38316189227061
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-fraser",
+                "lines": [
+                    "metro/7",
+                    "metro/9"
+                ],
+                "type": "station-label",
+                "name": "Fraser",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.82439991578887,
+                    45.39631578400977
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-belmont",
+                "lines": [
+                    "metro/7",
+                    "metro/9"
+                ],
+                "type": "station-label",
+                "name": "Belmont",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.83093043436942,
+                    45.39585019092095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "metrostn-aylmer",
+                "lines": [
+                    "metro/7",
+                    "metro/9"
+                ],
+                "type": "station-label",
+                "name": "Aylmer",
+                "major": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.83644982833472,
+                    45.39546540759886
+                ]
+            }
+        }
+    ]

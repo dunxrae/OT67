@@ -1,0 +1,68 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-calixterouleau",
+            "lines": [
+                "metro/6",
+                "metro/8"
+            ],
+            "type": "station-label",
+            "name": "Calixte-Rouleau",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.76643263867204,
+          45.437953785598495
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-starcite",
+            "lines": [
+                "metro/6",
+                "metro/8"
+            ],
+            "type": "station-label",
+            "name": "Starcite",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.77227488344109,
+          45.43472735391194
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-plateau",
+            "lines": [
+                "metro/6",
+                "metro/8"
+            ],
+            "type": "station-label",
+            "name": "Plateau",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.78026448291901,
+          45.43331710792464
+            ]
+        }
+    }
+
+    
+    
+    ]

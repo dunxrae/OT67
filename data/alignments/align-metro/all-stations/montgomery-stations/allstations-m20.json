@@ -1,0 +1,146 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-kingsview",
+            "lines": [
+                "metro/2",
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "Kingsview",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.67323380741897,
+          45.4366560897534
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-montgomery",
+            "lines": [
+                "metro/2",
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "Montgomery",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.66864483768956,
+          45.43297607193159
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-mcarthur",
+            "lines": [
+                "metro/2",
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "McArthur",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.65430433881261,
+          45.43177637661043
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-may",
+            "lines": [
+                "metro/2",
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "May",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.64470480705242,
+          45.43245328630894
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-donald",
+            "lines": [
+                "metro/2",
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "Donald",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.64005168859957,
+          45.42894394678342
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-stlaurent",
+            "lines": [
+                "metro/2",
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "St. Laurent",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.63584549676101,
+          45.421402491346925
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-headquarters",
+            "lines": [
+                "metro/2",
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "Headquarters",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.63250874011725,
+          45.41540928170744
+            ]
+        }
+    }
+    
+    ]

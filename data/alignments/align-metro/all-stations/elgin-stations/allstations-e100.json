@@ -1,0 +1,64 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-foix",
+            "lines": [
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "Foix",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.71393487906495,
+          45.47859398398231
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-guylafleur",
+            "lines": [
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "Guy-Lafleur",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.7152960755505,
+          45.487631360130536
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-lamarche",
+            "lines": [
+                "metro/10"
+            ],
+            "type": "station-label",
+            "name": "Lamarche",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.7169168074263,
+          45.49836028335008
+            ]
+        }
+    }
+    
+    
+    ]

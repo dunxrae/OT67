@@ -1,0 +1,148 @@
+[
+    
+    
+
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-dowslake",
+            "lines": [
+                "metro/4",
+                "metro/7"
+            ],
+            "type": "station-label",
+            "name": "Dow's Lake",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.70924573748037,
+      45.396949323185254
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-corsoitalia",
+            "lines": [
+                "metro/4",
+                "metro/7"
+            ],
+            "type": "station-label",
+            "name": "Corso Italia",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.71480968060688,
+          45.40443591352894
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-bayview",
+            "lines": [
+                "metro/4",
+                "metro/7"
+            ],
+            "type": "station-label",
+            "name": "Bayview",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.72116356925484,
+          45.408819749324635
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-pindigen",
+            "lines": [
+                "metro/4",
+                "metro/7"
+            ],
+            "type": "station-label",
+            "name": "Pindigen",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.7151230278238,
+          45.41611570849602
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-asinabka",
+            "lines": [
+                "metro/4",
+                "metro/7"
+            ],
+            "type": "station-label",
+            "name": "Asinabka",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.71286520227801,
+          45.42097297637855
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-placeduportage",
+            "lines": [
+                "metro/4",
+                "metro/7"
+            ],
+            "type": "station-label",
+            "name": "Place Du Portage",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.71395902929133,
+          45.42574354559508
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "id": "metrostn-verdun",
+            "lines": [
+                "metro/4",
+                "metro/7"
+            ],
+            "type": "station-label",
+            "name": "Verdun",
+            "major": false
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.71242381958044,
+          45.43488716343762
+            ]
+        }
+    }
+
+    
+    
+    ]
