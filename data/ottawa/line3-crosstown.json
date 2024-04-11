@@ -36933,7 +36933,7 @@
           "geometry": {"type": "Point","coordinates": [-75.62854306983982,
           45.44680437528169]}
           },
-          {"type": "Feature","properties": {"lines": ["ottawa/3"],"type": "station-label","name": "Montfort","major": true},
+          {"type": "Feature","properties": {"lines": ["ottawa/3"],"type": "station-label","name": "Montfort","major": false},
           "geometry": {"type": "Point","coordinates": [-75.64041539669468,
           45.44316780165201]}
           },
@@ -36941,7 +36941,7 @@
           "geometry": {"type": "Point","coordinates": [-75.65560387917627,
           45.43821005765187]}
           },
-          {"type": "Feature","properties": {"lines": ["ottawa/3"],"type": "station-label","name": "Montgomery","major": true},
+          {"type": "Feature","properties": {"lines": ["ottawa/3"],"type": "station-label","name": "Montgomery","major": false},
           "geometry": {"type": "Point","coordinates": [-75.6684801168562,
           45.43340631501496]}
           },
@@ -36949,7 +36949,7 @@
           "geometry": {"type": "Point","coordinates": [-75.67744424134165,
           45.43220189027983]}
           },
-          {"type": "Feature","properties": {"lines": ["ottawa/3"],"type": "station-label","name": "King Edward","major": true},
+          {"type": "Feature","properties": {"lines": ["ottawa/3"],"type": "station-label","name": "King Edward","major": false},
           "geometry": {"type": "Point","coordinates": [-75.68579466742443,
           45.42875565142617]}
           }

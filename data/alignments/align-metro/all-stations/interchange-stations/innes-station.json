@@ -14,7 +14,7 @@
             ],
             "type": "station-label",
             "name": "Innes",
-            "major": false
+            "major": true
         },
         "geometry": {
             "type": "Point",

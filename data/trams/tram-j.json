@@ -1537,7 +1537,7 @@
                 "type": "LineString"
             }
         },
-        {"type": "Feature","properties": {"lines": ["trams/j"],"type": "station-label","name": "Citigate","major": true},
+        {"type": "Feature","properties": {"lines": ["trams/j"],"type": "station-label","name": "Citigate","major": false},
         "geometry": {"type": "Point","coordinates": [-75.78662232682021,
         45.27011239655599]}
         }

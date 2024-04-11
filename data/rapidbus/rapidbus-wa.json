@@ -1009,11 +1009,11 @@
         "type": "LineString"
       }
     },
-    {"type": "Feature","properties": {"lines": ["rapidbus/bl", "rapidbus/o", "rapidbus/h"],"type": "station-label","name": "Hurdman","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/bl", "rapidbus/o", "rapidbus/h"],"type": "station-label","name": "Hurdman","major": false},
     "geometry": {"type": "Point","coordinates": [-75.66415317016603,
     45.411917939457425]}
     },
-    {"type": "Feature","properties": {"lines": ["rapidbus/wa", "rapidbus/cb"],"type": "station-label","name": "St. Laurent","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/wa", "rapidbus/cb"],"type": "station-label","name": "St. Laurent","major": false},
     "geometry": {"type": "Point","coordinates": [-75.63758963839828,
     45.420463460962964]}
     }

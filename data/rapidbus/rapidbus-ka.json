@@ -1497,7 +1497,7 @@
     "geometry": {"type": "Point","coordinates": [-75.93869114750974,
     45.29823101342373]}
     },
-    {"type": "Feature","properties": {"lines": ["rapidbus/ka"],"type": "station-label","name": "Kanata West","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/ka"],"type": "station-label","name": "Kanata West","major": false},
     "geometry": {"type": "Point","coordinates": [-75.94336442891293,
     45.29537711422074]}
     }

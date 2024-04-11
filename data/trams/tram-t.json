@@ -841,7 +841,7 @@
             "type": "LineString"
           }
         },
-    {"type": "Feature","properties": {"lines": ["trams/t","trams/ka","trams/ea"],"type": "station-label","name": "Terry Fox","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/t","trams/ka","trams/ea"],"type": "station-label","name": "Terry Fox","major": false},
     "geometry": {"type": "Point","coordinates": [-75.90678525269686,
     45.30961076413428]}
     },
@@ -853,7 +853,7 @@
     "geometry": {"type": "Point","coordinates": [-75.92588429344973,
     45.27428162691956]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/t"],"type": "station-label","name": "Shops on Main","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/t"],"type": "station-label","name": "Shops on Main","major": false},
     "geometry": {"type": "Point","coordinates": [-75.92991891948257,
     45.267122458049386]}
     },
@@ -869,7 +869,7 @@
     "geometry": {"type": "Point","coordinates": [-75.9162312782631,
     45.25467180429206]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/t"],"type": "station-label","name": "Cherry","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/t"],"type": "station-label","name": "Cherry","major": false},
     "geometry": {"type": "Point","coordinates": [-75.91081454889158,
     45.24881438189391]}
     }

@@ -1321,11 +1321,11 @@
         "type": "LineString"
       }
     },
-    {"type": "Feature","properties": {"lines": ["rapidbus/bl", "rapidbus/o", "rapidbus/h"],"type": "station-label","name": "Hurdman","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/bl", "rapidbus/o", "rapidbus/h"],"type": "station-label","name": "Hurdman","major": false},
     "geometry": {"type": "Point","coordinates": [-75.66415317016603,
     45.411917939457425]}
     },
-    {"type": "Feature","properties": {"lines": ["rapidbus/bl", "rapidbus/wa"],"type": "station-label","name": "Mooney's Bay","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/bl", "rapidbus/wa"],"type": "station-label","name": "Mooney's Bay","major": false},
     "geometry": {"type": "Point","coordinates": [-75.685291850588,
     45.37725064658483]}
     },

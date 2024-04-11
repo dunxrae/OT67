@@ -991,7 +991,7 @@
           "lines": ["rapidbus/ea","rapidbus/ka","rapidbus/v"],
           "type": "station-connector-label",
           "name": "Terry Fox",
-          "major": true
+          "major": false
         },
         "geometry": {
           "type": "LineString",
@@ -1003,11 +1003,11 @@
           ]
         }
       },
-    {"type": "Feature","properties": {"lines": ["rapidbus/ea"],"type": "station-label","name": "Halton","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/ea"],"type": "station-label","name": "Halton","major": false},
     "geometry": {"type": "Point","coordinates": [-75.93621775003383,
     45.35805447388782]}
     },
-    {"type": "Feature","properties": {"lines": ["rapidbus/ea", "rapidbus/9"],"type": "station-label","name": "Kanata North","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/ea", "rapidbus/9"],"type": "station-label","name": "Kanata North","major": false},
     "geometry": {"type": "Point","coordinates": [-75.90992162548342,
     45.33729662403391]}
     },
@@ -1027,7 +1027,7 @@
     "geometry": {"type": "Point","coordinates": [-75.91679369849253,
     45.30572814228944]}
     },
-    {"type": "Feature","properties": {"lines": ["rapidbus/ea"],"type": "station-label","name": "Acceptance","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/ea"],"type": "station-label","name": "Acceptance","major": false},
     "geometry": {"type": "Point","coordinates": [-75.8409930162471,
     45.275095048176155]}
     }

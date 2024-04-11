@@ -1905,11 +1905,11 @@
         "type": "LineString"
       }
     },
-    {"type": "Feature","properties": {"lines": ["trams/b", "trams/y", "trams/c"],"type": "station-label","name": "Mooney's Bay","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/b", "trams/y", "trams/c"],"type": "station-label","name": "Mooney's Bay","major": false},
     "geometry": {"type": "Point","coordinates": [-75.68476182710528,
     45.377009303381584]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/b", "trams/y", "trams/bl"],"type": "station-label","name": "Billings Bridge","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/b", "trams/y", "trams/bl"],"type": "station-label","name": "Billings Bridge","major": false},
     "geometry": {"type": "Point","coordinates": [-75.67681065270163,
     45.38485103315671]}
     },
@@ -1917,11 +1917,11 @@
     "geometry": {"type": "Point","coordinates": [-75.68612230248017,
     45.42916737956344]}
     },
-    {"type": "Feature","properties": {"lines": [],"type": "station-label","name": "Murray","major": true},
+    {"type": "Feature","properties": {"lines": [],"type": "station-label","name": "Murray","major": false},
     "geometry": {"type": "Point","coordinates": [-75.68861483599902,
     45.43210996715277]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/y"],"type": "station-label","name": "McArthur","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/y"],"type": "station-label","name": "McArthur","major": false},
     "geometry": {"type": "Point","coordinates": [-75.65445338223032,
     45.43117525871651]}
     }

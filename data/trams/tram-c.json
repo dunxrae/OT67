@@ -1329,23 +1329,23 @@
     "geometry": {"type": "Point","coordinates": [-75.6872897750689,
     45.43054620431178]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/a", "trams/b", "trams/c", "trams/s", "trams/y"],"type": "station-label","name": "Murray","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/a", "trams/b", "trams/c", "trams/s", "trams/y"],"type": "station-label","name": "Murray","major": false},
     "geometry": {"type": "Point","coordinates": [-75.68861483599902,
     45.43210996715277]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/c"],"type": "station-label","name": "University","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/c"],"type": "station-label","name": "University","major": false},
     "geometry": {"type": "Point","coordinates": [-75.692677891167,
     45.38701650645933]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/b", "trams/y", "trams/c"],"type": "station-label","name": "Mooney's Bay","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/b", "trams/y", "trams/c"],"type": "station-label","name": "Mooney's Bay","major": false},
     "geometry": {"type": "Point","coordinates": [-75.68476182710528,
     45.377009303381584]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/c"],"type": "station-label","name": "Hog's Back","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/c"],"type": "station-label","name": "Hog's Back","major": false},
     "geometry": {"type": "Point","coordinates": [-75.6942456283139,
     45.37210859308547]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/c"],"type": "station-label","name": "Prince of Wales","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/c"],"type": "station-label","name": "Prince of Wales","major": false},
     "geometry": {"type": "Point","coordinates": [-75.70240654281137,
     45.367875678206275]}
     }

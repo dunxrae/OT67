@@ -1154,7 +1154,7 @@
           ],
           "type": "station-label",
           "name": "Rideau",
-          "major": true
+          "major": false
         },
         "geometry": {
           "type": "Point",
@@ -1192,7 +1192,7 @@
           ],
           "type": "station-label",
           "name": "Murray",
-          "major": true
+          "major": false
         },
         "geometry": {
           "type": "Point",
@@ -1210,7 +1210,7 @@
           ],
           "type": "station-label",
           "name": "Freeman",
-          "major": true
+          "major": false
         },
         "geometry": {
           "type": "Point",

@@ -4,11 +4,11 @@
   "metadata": {
     "id": "via/turboone",
     "type": "rail-line",
-    "color": "#FF0000",
+    "color": "#f20c0c",
     "offset": 0,
     "icon": "viarail\/viarail.svg",
     "name": "VIA Turbo One",
-    "description": "VIA Turbo Line 1: Toronto - Quebec City",
+    "description": "VIA Turbo One HSR: Toronto/Ottawa/Montreal",
     "filterKey": "viaturbo",
     "searchTerms": [
       "VIA Turbo One","High Speed Rail"

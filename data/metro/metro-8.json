@@ -1640,7 +1640,7 @@
                 ],
                 "type": "station-label",
                 "name": "Terry Fox",
-                "major": false
+                "major": true
             },
             "geometry": {
                 "type": "Point",
@@ -1777,7 +1777,7 @@
                 ],
                 "type": "station-label",
                 "name": "Baseline",
-                "major": false
+                "major": true
             },
             "geometry": {
                 "type": "Point",
@@ -1901,8 +1901,6 @@
                 "id": "metrostn-westgate",
                 "lines": [
                     "metro/2",
-                    "metro/4",
-                    "metro/5",
                     "metro/7",
                     "metro/8",
                     "metro/9"
@@ -1957,7 +1955,7 @@
                 ],
                 "type": "station-label",
                 "name": "Dow's Lake",
-                "major": false
+                "major": true
             },
             "geometry": {
                 "type": "Point",

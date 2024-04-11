@@ -880,11 +880,11 @@
           ]
         }
       },
-    {"type": "Feature","properties": {"lines": ["trams/b", "trams/y", "trams/c"],"type": "station-label","name": "Mooney's Bay","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/b", "trams/y", "trams/c"],"type": "station-label","name": "Mooney's Bay","major": false},
     "geometry": {"type": "Point","coordinates": [-75.68476182710528,
     45.377009303381584]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/b", "trams/y", "trams/bl"],"type": "station-label","name": "Billings Bridge","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/b", "trams/y", "trams/bl"],"type": "station-label","name": "Billings Bridge","major": false},
     "geometry": {"type": "Point","coordinates": [-75.67681065270163,
     45.38485103315671]}
     },
@@ -896,7 +896,7 @@
     "geometry": {"type": "Point","coordinates": [-75.68342163884995,
     45.394271358031006]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/b"],"type": "station-label","name": "Lansdowne","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/b"],"type": "station-label","name": "Lansdowne","major": false},
     "geometry": {"type": "Point","coordinates": [-75.68568042678282,
     45.398264844923546]}
     },
@@ -904,7 +904,7 @@
     "geometry": {"type": "Point","coordinates": [-75.68759282757154,
     45.40164191439226]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/b"],"type": "station-label","name": "Glebe","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/b"],"type": "station-label","name": "Glebe","major": false},
     "geometry": {"type": "Point","coordinates": [-75.68964340059725,
     45.405195964418255]}
     },
@@ -924,7 +924,7 @@
     "geometry": {"type": "Point","coordinates": [-75.69908510338742,
     45.41855094679178]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/a", "trams/b", "trams/p"],"type": "station-label","name": "Parliament","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/a", "trams/b", "trams/p"],"type": "station-label","name": "Parliament","major": false},
     "geometry": {"type": "Point","coordinates": [-75.69948219592285,
     45.4228315549691]}
     },
@@ -940,7 +940,7 @@
     "geometry": {"type": "Point","coordinates": [-75.6872897750689,
     45.43054620431178]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/a", "trams/b", "trams/c", "trams/s", "trams/y"],"type": "station-label","name": "Murray","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/a", "trams/b", "trams/c", "trams/s", "trams/y"],"type": "station-label","name": "Murray","major": false},
     "geometry": {"type": "Point","coordinates": [-75.68861483599902,
     45.43210996715277]}
     }

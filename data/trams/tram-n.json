@@ -1352,7 +1352,7 @@
           "lines": [
             "trams/n"
           ],
-          "major": true
+          "major": false
         },
         "geometry": {
           "coordinates": [

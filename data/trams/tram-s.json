@@ -1073,15 +1073,15 @@
     "geometry": {"type": "Point","coordinates": [-75.68612230248017,
     45.42916737956344]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/b", "trams/c", "trams/s"],"type": "station-label","name": "Murray","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/b", "trams/c", "trams/s"],"type": "station-label","name": "Murray","major": false},
     "geometry": {"type": "Point","coordinates": [-75.68861483599902,
     45.43210996715277]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/s", "trams/y"],"type": "station-label","name": "Beechwood","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/s", "trams/y"],"type": "station-label","name": "Beechwood","major": false},
     "geometry": {"type": "Point","coordinates": [-75.67755631503951,
     45.438609554634695]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/s"],"type": "station-label","name": "Lookout","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/s"],"type": "station-label","name": "Lookout","major": false},
     "geometry": {"type": "Point","coordinates": [-75.68808860678546,
     45.45341415558585]}
     }

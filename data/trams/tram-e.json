@@ -8,7 +8,7 @@
         "offset": -0.5,
         "icon": "trams/e.svg",
         "name": "Line E: Verendrye",
-        "description": "Verendrye Est - La Baie",
+        "description": "Polyvalente - La Baie",
         "filterKey": "!tram",
         "sources": [
             "N/A"
@@ -1038,11 +1038,11 @@
         "type": "Feature",
         "properties": {
           "type": "station-label",
-          "name": "Verendrye",
+          "name": "Polyvalente",
           "lines": [
             "trams/e"
           ],
-          "major": true
+          "major": false
         },
         "geometry": {
           "coordinates": [
@@ -1060,7 +1060,7 @@
           "lines": [
             "trams/e"
           ],
-          "major": true
+          "major": false
         },
         "geometry": {
           "coordinates": [

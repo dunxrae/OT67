@@ -954,7 +954,7 @@
           "lines": [
             "trams/g"
           ],
-          "major": true
+          "major": false
         },
         "geometry": {
           "coordinates": [
@@ -972,7 +972,7 @@
           "lines": [
             "trams/g"
           ],
-          "major": true
+          "major": false
         },
         "geometry": {
           "coordinates": [

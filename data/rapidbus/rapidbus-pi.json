@@ -1295,7 +1295,7 @@
       "type": "LineString"
     }
   },
-    {"type": "Feature","properties": {"lines": ["rapidbus/wa", "rapidbus/pi"],"type": "station-label","name": "Elmvale Acres","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/wa", "rapidbus/pi"],"type": "station-label","name": "Elmvale Acres","major": false},
     "geometry": {"type": "Point","coordinates": [-75.62365454802374,
     45.400126522397926]}
     },
@@ -1307,7 +1307,7 @@
     "geometry": {"type": "Point","coordinates": [-75.48209189547609,
     45.49524031210379]}
     },
-    {"type": "Feature","properties": {"lines": ["rapidbus/pi"],"type": "station-label","name": "Petrie Island","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/pi"],"type": "station-label","name": "Petrie Island","major": false},
     "geometry": {"type": "Point","coordinates": [-75.49160807168543,
     45.50517705930966]}
     }

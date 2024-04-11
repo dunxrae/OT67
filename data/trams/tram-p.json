@@ -1465,7 +1465,7 @@
           "lines": [
             "trams/p"
           ],
-          "major": true
+          "major": false
         },
         "geometry": {
           "coordinates": [
@@ -1568,7 +1568,7 @@
           ],
           "type": "station-label",
           "name": "Rideau",
-          "major": true
+          "major": false
         },
         "geometry": {
           "type": "Point",
@@ -1606,7 +1606,7 @@
           ],
           "type": "station-label",
           "name": "Murray",
-          "major": true
+          "major": false
         },
         "geometry": {
           "type": "Point",

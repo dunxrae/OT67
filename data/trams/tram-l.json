@@ -1009,7 +1009,7 @@
             "type": "LineString"
           }
         },
-    {"type": "Feature","properties": {"lines": ["trams/l"],"type": "station-label","name": "Sherbourne","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/l"],"type": "station-label","name": "Sherbourne","major": false},
     "geometry": {"type": "Point","coordinates": [-75.77128305584701,
     45.38058745063765]}
     },
@@ -1017,7 +1017,7 @@
     "geometry": {"type": "Point","coordinates": [-75.76655419020712,
     45.37760163399196]}
     },
-    {"type": "Feature","properties": {"lines": ["trams/l"],"type": "station-label","name": "Maitland","major": true},
+    {"type": "Feature","properties": {"lines": ["trams/l"],"type": "station-label","name": "Maitland","major": false},
     "geometry": {"type": "Point","coordinates": [-75.75777772916231,
     45.376112967400275]}
     },

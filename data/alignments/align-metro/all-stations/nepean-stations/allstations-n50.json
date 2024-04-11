@@ -87,7 +87,7 @@
             ],
             "type": "station-label",
             "name": "Barrhaven",
-            "major": false
+            "major": true
         },
         "geometry": {
             "type": "Point",

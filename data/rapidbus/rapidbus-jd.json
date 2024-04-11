@@ -1097,7 +1097,7 @@
       "type": "LineString"
     }
   },
-    {"type": "Feature","properties": {"lines": ["rapidbus/jd"],"type": "station-label","name": "Place D'Orleans","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/jd"],"type": "station-label","name": "Place D'Orleans","major": false},
     "geometry": {"type": "Point","coordinates": [-75.5189797165999,
     45.478689915504646]}
     },
@@ -1109,7 +1109,7 @@
     "geometry": {"type": "Point","coordinates": [-75.47428983482223,
     45.459052010216595]}
     },
-    {"type": "Feature","properties": {"lines": ["rapidbus/av", "rapidbus/jd"],"type": "station-label","name": "Millenium","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/av", "rapidbus/jd"],"type": "station-label","name": "Millenium","major": false},
     "geometry": {"type": "Point","coordinates": [-75.45174760127638,
     45.46382036279539]}
     }

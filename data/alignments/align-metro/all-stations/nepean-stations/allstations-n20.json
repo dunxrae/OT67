@@ -12,7 +12,7 @@
             ],
             "type": "station-label",
             "name": "Dow's Lake",
-            "major": false
+            "major": true
         },
         "geometry": {
             "type": "Point",

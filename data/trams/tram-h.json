@@ -1352,7 +1352,7 @@
                 ],
                 "type": "station-label",
                 "name": "Hurdman",
-                "major": true
+                "major": false
             },
             "geometry": {
                 "type": "Point",
@@ -1371,7 +1371,7 @@
                 ],
                 "type": "station-label",
                 "name": "Hospital",
-                "major": true
+                "major": false
             },
             "geometry": {
                 "type": "Point",

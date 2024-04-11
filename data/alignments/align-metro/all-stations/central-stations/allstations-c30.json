@@ -89,7 +89,7 @@
                 ],
                 "type": "station-label",
                 "name": "Aylmer",
-                "major": false
+                "major": true
             },
             "geometry": {
                 "type": "Point",

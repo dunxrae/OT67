@@ -841,7 +841,7 @@
       "type": "LineString"
     }
   },
-    {"type": "Feature","properties": {"lines": ["rapidbus/wa", "rapidbus/av"],"type": "station-label","name": "St. Laurent","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/wa", "rapidbus/av"],"type": "station-label","name": "St. Laurent","major": false},
     "geometry": {"type": "Point","coordinates": [-75.63758963839828,
     45.420463460962964]}
     },
@@ -853,7 +853,7 @@
     "geometry": {"type": "Point","coordinates": [-75.47428983482223,
     45.459052010216595]}
     },
-    {"type": "Feature","properties": {"lines": ["rapidbus/av", "rapidbus/jd"],"type": "station-label","name": "Millenium","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/av", "rapidbus/jd"],"type": "station-label","name": "Millenium","major": false},
     "geometry": {"type": "Point","coordinates": [-75.45174760127638,
     45.46382036279539]}
     }

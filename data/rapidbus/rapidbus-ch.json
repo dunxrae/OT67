@@ -1225,7 +1225,7 @@
         "type": "LineString"
       }
     },
-    {"type": "Feature","properties": {"lines": ["rapidbus/ch", "rapidbus/j"],"type": "station-label","name": "Barrhven Centre","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/ch", "rapidbus/j"],"type": "station-label","name": "Barrhven Centre","major": false},
     "geometry": {"type": "Point","coordinates": [-75.74196753869495,
     45.26631085398071]}
     },
@@ -1233,7 +1233,7 @@
     "geometry": {"type": "Point","coordinates": [-75.766683238201,
     45.25670690080466]}
     },
-    {"type": "Feature","properties": {"lines": ["rapidbus/ch"],"type": "station-label","name": "Stormwater","major": true},
+    {"type": "Feature","properties": {"lines": ["rapidbus/ch"],"type": "station-label","name": "Stormwater","major": false},
     "geometry": {"type": "Point","coordinates": [-75.77501680317883,
     45.26093377775328]}
     }

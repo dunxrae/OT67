@@ -52,7 +52,7 @@
             ],
             "type": "station-label",
             "name": "Skyline",
-            "major": false
+            "major": true
         },
         "geometry": {
             "type": "Point",
@@ -132,7 +132,7 @@
             ],
             "type": "station-label",
             "name": "Roydon",
-            "major": false
+            "major": true
         },
         "geometry": {
             "type": "Point",

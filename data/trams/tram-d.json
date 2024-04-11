@@ -1414,7 +1414,7 @@
         ],
         "type": "station-label",
         "name": "Bois-Franc",
-        "major": true
+        "major": false
       },
       "geometry": {
         "type": "Point",
